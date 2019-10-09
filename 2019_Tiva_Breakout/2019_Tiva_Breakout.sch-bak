@@ -1,0 +1,590 @@
+EESchema Schematic File Version 4
+LIBS:2019_Tive_Breakout-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0101
+U 1 1 5D91D7D5
+P 6300 1050
+F 0 "#PWR0101" H 6300 800 50  0001 C CNN
+F 1 "GND" H 6305 877 50  0000 C CNN
+F 2 "" H 6300 1050 50  0001 C CNN
+F 3 "" H 6300 1050 50  0001 C CNN
+	1    6300 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1050 6300 1050
+Wire Wire Line
+	6300 1050 6300 950 
+Wire Wire Line
+	6300 950  6550 950 
+Connection ~ 6300 1050
+$Comp
+L power:+5VA #PWR0102
+U 1 1 5D91FD34
+P 6300 1600
+F 0 "#PWR0102" H 6300 1450 50  0001 C CNN
+F 1 "+5VA" H 6315 1773 50  0000 C CNN
+F 2 "" H 6300 1600 50  0001 C CNN
+F 3 "" H 6300 1600 50  0001 C CNN
+	1    6300 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 850  6550 850 
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 5D920B87
+P 6300 850
+F 0 "#PWR0103" H 6300 700 50  0001 C CNN
+F 1 "+3V3" H 6315 1023 50  0000 C CNN
+F 2 "" H 6300 850 50  0001 C CNN
+F 3 "" H 6300 850 50  0001 C CNN
+	1    6300 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1150 6550 1600
+Wire Wire Line
+	6550 1600 6300 1600
+Wire Notes Line
+	6000 450  6000 2150
+Wire Notes Line
+	6000 2150 7700 2150
+Wire Notes Line
+	7700 2150 7700 450 
+Text Notes 6300 1950 0    118  ~ 0
+Power Input
+NoConn ~ 3700 5300
+NoConn ~ 3700 6700
+$Comp
+L power:+5VA #PWR0104
+U 1 1 5D92EDF1
+P 3850 3000
+F 0 "#PWR0104" H 3850 2850 50  0001 C CNN
+F 1 "+5VA" H 3865 3173 50  0000 C CNN
+F 2 "" H 3850 3000 50  0001 C CNN
+F 3 "" H 3850 3000 50  0001 C CNN
+	1    3850 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3000 3850 3000
+$Comp
+L power:+3V3 #PWR0105
+U 1 1 5D930359
+P 1350 1250
+F 0 "#PWR0105" H 1350 1100 50  0001 C CNN
+F 1 "+3V3" H 1365 1423 50  0000 C CNN
+F 2 "" H 1350 1250 50  0001 C CNN
+F 3 "" H 1350 1250 50  0001 C CNN
+	1    1350 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 5D931010
+P 1350 3000
+F 0 "#PWR0106" H 1350 2850 50  0001 C CNN
+F 1 "+3V3" H 1365 3173 50  0000 C CNN
+F 2 "" H 1350 3000 50  0001 C CNN
+F 3 "" H 1350 3000 50  0001 C CNN
+	1    1350 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 3000 1500 3000
+Wire Wire Line
+	1350 1250 1500 1250
+Wire Wire Line
+	3900 1250 4000 1250
+Wire Wire Line
+	3900 1350 3900 1250
+Wire Wire Line
+	3700 1350 3900 1350
+$Comp
+L power:GND #PWR0107
+U 1 1 5D932528
+P 4000 1250
+F 0 "#PWR0107" H 4000 1000 50  0001 C CNN
+F 1 "GND" H 4000 1100 50  0000 C CNN
+F 2 "" H 4000 1250 50  0001 C CNN
+F 3 "" H 4000 1250 50  0001 C CNN
+	1    4000 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1250 3850 1250
+$Comp
+L power:+5VA #PWR0108
+U 1 1 5D92E21C
+P 3850 1250
+F 0 "#PWR0108" H 3850 1100 50  0001 C CNN
+F 1 "+5VA" H 3865 1423 50  0000 C CNN
+F 2 "" H 3850 1250 50  0001 C CNN
+F 3 "" H 3850 1250 50  0001 C CNN
+	1    3850 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5D93722A
+P 4000 4800
+F 0 "#PWR0109" H 4000 4550 50  0001 C CNN
+F 1 "GND" H 4000 4650 50  0000 C CNN
+F 2 "" H 4000 4800 50  0001 C CNN
+F 3 "" H 4000 4800 50  0001 C CNN
+	1    4000 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4900 3900 4900
+Wire Wire Line
+	3900 4900 3900 4800
+Wire Wire Line
+	3900 4800 4000 4800
+$Comp
+L power:GND #PWR0110
+U 1 1 5D93847D
+P 4050 2900
+F 0 "#PWR0110" H 4050 2650 50  0001 C CNN
+F 1 "GND" H 4050 2750 50  0000 C CNN
+F 2 "" H 4050 2900 50  0001 C CNN
+F 3 "" H 4050 2900 50  0001 C CNN
+	1    4050 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3100 3900 3100
+$Comp
+L power:GND #PWR0111
+U 1 1 5D9394A1
+P 4000 6200
+F 0 "#PWR0111" H 4000 5950 50  0001 C CNN
+F 1 "GND" H 4000 6050 50  0000 C CNN
+F 2 "" H 4000 6200 50  0001 C CNN
+F 3 "" H 4000 6200 50  0001 C CNN
+	1    4000 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 6300 3900 6300
+Wire Wire Line
+	3900 6300 3900 6200
+Wire Wire Line
+	3900 6200 4000 6200
+Wire Wire Line
+	1050 1350 1500 1350
+Wire Wire Line
+	1050 1450 1500 1450
+Wire Wire Line
+	1050 1550 1500 1550
+Wire Wire Line
+	1050 1650 1500 1650
+Wire Wire Line
+	1050 1750 1500 1750
+Wire Wire Line
+	1050 1850 1500 1850
+Wire Wire Line
+	1050 1950 1500 1950
+Wire Wire Line
+	1050 2050 1500 2050
+Wire Wire Line
+	1050 2150 1500 2150
+Wire Wire Line
+	3700 1450 4300 1450
+Wire Wire Line
+	3700 1550 4300 1550
+Wire Wire Line
+	3700 1650 4300 1650
+Wire Wire Line
+	3700 1750 4300 1750
+Wire Wire Line
+	3700 1850 4300 1850
+Wire Wire Line
+	3700 1950 4300 1950
+Wire Wire Line
+	3700 2050 4300 2050
+Wire Wire Line
+	3700 2150 4300 2150
+Wire Wire Line
+	1050 4900 1500 4900
+Wire Wire Line
+	1050 5000 1500 5000
+Wire Wire Line
+	1050 5100 1500 5100
+Wire Wire Line
+	1050 5200 1500 5200
+Wire Wire Line
+	1050 5300 1500 5300
+Wire Wire Line
+	1050 5400 1500 5400
+Wire Wire Line
+	1050 5500 1500 5500
+Wire Wire Line
+	1050 5600 1500 5600
+Wire Wire Line
+	1050 5700 1500 5700
+Wire Wire Line
+	1050 5800 1500 5800
+Wire Wire Line
+	3700 5000 4300 5000
+Wire Wire Line
+	3700 5100 4300 5100
+Wire Wire Line
+	3700 5200 4300 5200
+Wire Wire Line
+	3700 5400 3800 5400
+Wire Wire Line
+	3800 5400 3800 5300
+Wire Wire Line
+	3800 5300 4300 5300
+Wire Wire Line
+	3700 5500 3900 5500
+Wire Wire Line
+	3900 5500 3900 5400
+Wire Wire Line
+	3900 5400 4300 5400
+Wire Wire Line
+	3700 5600 4000 5600
+Wire Wire Line
+	4000 5600 4000 5500
+Wire Wire Line
+	4000 5500 4300 5500
+Wire Wire Line
+	3700 5700 4100 5700
+Wire Wire Line
+	4100 5700 4100 5600
+Wire Wire Line
+	4100 5600 4300 5600
+Wire Wire Line
+	3700 5800 4200 5800
+Wire Wire Line
+	4200 5800 4200 5700
+Wire Wire Line
+	4200 5700 4300 5700
+Wire Wire Line
+	1050 3100 1500 3100
+Wire Wire Line
+	1050 3200 1500 3200
+Wire Wire Line
+	1050 3300 1500 3300
+Wire Wire Line
+	1050 3400 1500 3400
+Wire Wire Line
+	1050 3500 1500 3500
+Wire Wire Line
+	1050 3600 1500 3600
+Wire Wire Line
+	1050 3700 1500 3700
+Wire Wire Line
+	1050 3800 1500 3800
+Wire Wire Line
+	1050 3900 1500 3900
+Wire Wire Line
+	4300 3200 3700 3200
+Wire Wire Line
+	3700 3300 4300 3300
+Wire Wire Line
+	3700 3400 4300 3400
+Wire Wire Line
+	3700 3500 4300 3500
+Wire Wire Line
+	3700 3600 4300 3600
+Wire Wire Line
+	3700 3700 4300 3700
+Wire Wire Line
+	3700 3800 4300 3800
+Wire Wire Line
+	3700 3900 4300 3900
+Wire Wire Line
+	1050 6300 1500 6300
+Wire Wire Line
+	1050 6400 1500 6400
+Wire Wire Line
+	1050 6500 1500 6500
+Wire Wire Line
+	1050 6600 1500 6600
+Wire Wire Line
+	1050 6700 1500 6700
+Wire Wire Line
+	1050 6800 1500 6800
+Wire Wire Line
+	1050 6900 1500 6900
+Wire Wire Line
+	1050 7000 1500 7000
+Wire Wire Line
+	1050 7100 1500 7100
+Wire Wire Line
+	1050 7200 1500 7200
+Wire Wire Line
+	3700 6400 4300 6400
+Wire Wire Line
+	3700 6500 4300 6500
+Wire Wire Line
+	3700 6600 4300 6600
+Wire Wire Line
+	3700 6800 3800 6800
+Wire Wire Line
+	3800 6800 3800 6700
+Wire Wire Line
+	3800 6700 4300 6700
+Wire Wire Line
+	3700 6900 3900 6900
+Wire Wire Line
+	3900 6900 3900 6800
+Wire Wire Line
+	3900 6800 4300 6800
+Wire Wire Line
+	3700 7000 4000 7000
+Wire Wire Line
+	4000 7000 4000 6900
+Wire Wire Line
+	4000 6900 4300 6900
+Wire Wire Line
+	3700 7100 4100 7100
+Wire Wire Line
+	4100 7100 4100 7000
+Wire Wire Line
+	4100 7000 4300 7000
+Wire Wire Line
+	3700 7200 4200 7200
+Wire Wire Line
+	4200 7200 4200 7100
+Wire Wire Line
+	4200 7100 4300 7100
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 1 1 5D8EFD0D
+P 1700 2200
+F 0 "U1" H 1750 3350 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" V 2000 2250 60  0000 L CNN
+F 2 "MRDT_Shields:Tiva_Breakout" H 1700 2200 60  0001 C CNN
+F 3 "" H 1700 2200 60  0001 C CNN
+	1    1700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 2 1 5D8F2703
+P 3500 2200
+F 0 "U1" H 3650 3350 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" V 3850 2750 60  0000 C CNN
+F 2 "MRDT_Shields:Tiva_Breakout" H 3500 2200 60  0001 C CNN
+F 3 "" H 3500 2200 60  0001 C CNN
+	2    3500 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 3 1 5D8F4A55
+P 1700 5850
+F 0 "U1" H 1750 7000 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" V 2050 5900 60  0000 L CNN
+F 2 "MRDT_Shields:Tiva_Breakout" H 1700 5850 60  0001 C CNN
+F 3 "" H 1700 5850 60  0001 C CNN
+	3    1700 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 4 1 5D8F6A14
+P 3500 5850
+F 0 "U1" H 3650 7000 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" V 3850 6400 60  0000 C CNN
+F 2 "MRDT_Shields:Tiva_Breakout" H 3500 5850 60  0001 C CNN
+F 3 "" H 3500 5850 60  0001 C CNN
+	4    3500 5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 5 1 5D8FA8C6
+P 1700 3950
+F 0 "U1" H 1750 5100 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" V 2050 4000 60  0000 L CNN
+F 2 "MRDT_Shields:Tiva_Breakout" H 1700 3950 60  0001 C CNN
+F 3 "" H 1700 3950 60  0001 C CNN
+	5    1700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 6 1 5D8FCD2A
+P 3500 3950
+F 0 "U1" H 3650 5100 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" V 3850 4500 60  0000 C CNN
+F 2 "MRDT_Shields:Tiva_Breakout" H 3500 3950 60  0001 C CNN
+F 3 "" H 3500 3950 60  0001 C CNN
+	6    3500 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 7 1 5D8FEE4B
+P 1700 7250
+F 0 "U1" H 1750 8400 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" V 2050 7300 60  0000 L CNN
+F 2 "MRDT_Shields:Tiva_Breakout" H 1700 7250 60  0001 C CNN
+F 3 "" H 1700 7250 60  0001 C CNN
+	7    1700 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 8 1 5D900FA8
+P 3500 7250
+F 0 "U1" H 3600 8400 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" V 3800 7800 60  0000 C CNN
+F 2 "MRDT_Shields:Tiva_Breakout" H 3500 7250 60  0001 C CNN
+F 3 "" H 3500 7250 60  0001 C CNN
+	8    3500 7250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_04 ConnIN1
+U 1 1 5D9064E6
+P 6750 1200
+F 0 "ConnIN1" H 6878 1458 60  0000 L CNN
+F 1 "Molex_SL_04" H 6878 1352 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 6750 1200 60  0001 C CNN
+F 3 "" H 6750 1200 60  0001 C CNN
+	1    6750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_09 ConnA1
+U 1 1 5D907061
+P 850 2200
+F 0 "ConnA1" H 792 3297 60  0000 C CNN
+F 1 "Molex_SL_09" H 792 3191 60  0000 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_09_Horizontal" H 850 2600 60  0001 C CNN
+F 3 "" H 850 2600 60  0001 C CNN
+	1    850  2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_09 ConnA2
+U 1 1 5D907F21
+P 850 3950
+F 0 "ConnA2" H 792 5047 60  0000 C CNN
+F 1 "Molex_SL_09" H 792 4941 60  0000 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_09_Horizontal" H 850 4350 60  0001 C CNN
+F 3 "" H 850 4350 60  0001 C CNN
+	1    850  3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_10 ConnC1
+U 1 1 5D908EEE
+P 850 5850
+F 0 "ConnC1" H 792 7047 60  0000 C CNN
+F 1 "Molex_SL_10" H 792 6941 60  0000 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_10_Horizontal" H 850 6350 60  0001 C CNN
+F 3 "" H 850 6350 60  0001 C CNN
+	1    850  5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_10 ConnC2
+U 1 1 5D909889
+P 850 7250
+F 0 "ConnC2" H 792 8447 60  0000 C CNN
+F 1 "Molex_SL_10" H 792 8341 60  0000 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_10_Horizontal" H 850 7750 60  0001 C CNN
+F 3 "" H 850 7750 60  0001 C CNN
+	1    850  7250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_08 ConnB1
+U 1 1 5D90A1BA
+P 4500 2200
+F 0 "ConnB1" H 4628 2658 60  0000 L CNN
+F 1 "Molex_SL_08" H 4628 2552 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 4500 2500 60  0001 C CNN
+F 3 "" H 4500 2500 60  0001 C CNN
+	1    4500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_08 ConnD1
+U 1 1 5D90B5DC
+P 4500 5750
+F 0 "ConnD1" H 4628 6208 60  0000 L CNN
+F 1 "Molex_SL_08" H 4628 6102 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 4500 6050 60  0001 C CNN
+F 3 "" H 4500 6050 60  0001 C CNN
+	1    4500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_08 ConnB2
+U 1 1 5D90C0A3
+P 4500 3950
+F 0 "ConnB2" H 4628 4408 60  0000 L CNN
+F 1 "Molex_SL_08" H 4628 4302 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 4500 4250 60  0001 C CNN
+F 3 "" H 4500 4250 60  0001 C CNN
+	1    4500 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_08 ConnD2
+U 1 1 5D90C85E
+P 4500 7150
+F 0 "ConnD2" H 4628 7608 60  0000 L CNN
+F 1 "Molex_SL_08" H 4628 7502 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 4500 7450 60  0001 C CNN
+F 3 "" H 4500 7450 60  0001 C CNN
+	1    4500 7150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5350 450  450  450 
+Wire Notes Line
+	450  450  450  2350
+Text Notes 2250 900  0    197  ~ 0
+30V
+Text Notes 3650 2700 0    197  ~ 0
+12V
+Wire Wire Line
+	3900 2900 4050 2900
+Wire Wire Line
+	3900 2900 3900 3100
+Text Notes 3750 3200 0    59   ~ 0
+ACT_CTRL
+Text Notes 3750 3300 0    59   ~ 0
+LOG_CTRL
+Text Notes 3750 3400 0    59   ~ 0
+LOG_CRRT
+Text Notes 3750 3500 0    59   ~ 0
+ACT_CRRT
+Wire Notes Line
+	450  2350 5350 2350
+Wire Notes Line
+	5350 450  5350 4250
+Wire Notes Line
+	450  4250 450  7800
+Wire Notes Line
+	450  4250 5350 4250
+Wire Notes Line
+	450  7800 2600 7800
+Wire Notes Line
+	2600 2350 2600 7800
+Text Notes 600  4550 0    197  ~ 0
+Patch Panel
+$EndSCHEMATC
