@@ -11,7 +11,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.25)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
     (trace_clearance 0.2)
@@ -255,10 +255,10 @@
 
   (module MRDT_Silkscreens:z_sig_Patrick_Sanchez_15mmx5mm (layer F.Cu) (tedit 5D9D55C5) (tstamp 5D9D6892)
     (at 145.034 90.297)
-    (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+    (fp_text reference G*** (at 10.541 -1.016) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
-    (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
+    (fp_text value LOGO (at 10.414 1.016) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy 3.4036 -0.86106) (xy 3.40106 -0.85852) (xy 3.39852 -0.86106) (xy 3.40106 -0.8636)
@@ -2176,10 +2176,10 @@
   (module MRDT_Connectors:MOLEX_SL_09_Horizontal (layer B.Cu) (tedit 5C22EB5F) (tstamp 5D8ED926)
     (at 93.98 118.364)
     (path /5D907061)
-    (fp_text reference ConnA1 (at 0 6.731) (layer B.SilkS) hide
+    (fp_text reference ConnA1 (at 8.001 2.794) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Molex_SL_09 (at 0 4.826) (layer B.Fab) hide
+    (fp_text value Molex_SL_09 (at -6.604 2.921) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -3.81 7.62) (end -3.81 13.208) (layer B.SilkS) (width 0.15))
@@ -2228,10 +2228,10 @@
   (module MRDT_Connectors:MOLEX_SL_09_Horizontal (layer B.Cu) (tedit 5C22EB5F) (tstamp 5D8EA84C)
     (at 161.798 118.364)
     (path /5D907F21)
-    (fp_text reference ConnA2 (at 0.762 4.826) (layer B.SilkS) hide
+    (fp_text reference ConnA2 (at 7.62 2.794) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Molex_SL_09 (at 0.762 2.921) (layer B.Fab) hide
+    (fp_text value Molex_SL_09 (at -7.366 2.667) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -11.43 -1.27) (end -11.43 1.27) (layer B.SilkS) (width 0.15))
@@ -2280,10 +2280,10 @@
   (module MRDT_Connectors:MOLEX_SL_08_Horizontal (layer B.Cu) (tedit 5C22EB39) (tstamp 5D8EF7A6)
     (at 119.888 118.364)
     (path /5D90A1BA)
-    (fp_text reference ConnB1 (at 0.0762 6.4008) (layer B.SilkS) hide
+    (fp_text reference ConnB1 (at 8.128 2.413) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Molex_SL_08 (at -0.4572 3.9878) (layer B.Fab) hide
+    (fp_text value Molex_SL_08 (at -6.731 2.54) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -12.065 1.27) (end 12.065 1.27) (layer B.SilkS) (width 0.15))
@@ -2330,10 +2330,10 @@
   (module MRDT_Connectors:MOLEX_SL_08_Horizontal (layer B.Cu) (tedit 5C22EB39) (tstamp 5D8EED80)
     (at 187.706 118.364)
     (path /5D90C0A3)
-    (fp_text reference ConnB2 (at 0.889 4.826) (layer B.SilkS) hide
+    (fp_text reference ConnB2 (at 8.382 2.794) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Molex_SL_08 (at 0.889 2.921) (layer B.Fab) hide
+    (fp_text value Molex_SL_08 (at -6.477 2.667) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -12.065 1.27) (end 12.065 1.27) (layer B.SilkS) (width 0.15))
@@ -2380,10 +2380,10 @@
   (module MRDT_Connectors:MOLEX_SL_10_Horizontal (layer B.Cu) (tedit 5C22EB85) (tstamp 5D8EA8A9)
     (at 85.598 99.06 270)
     (path /5D908EEE)
-    (fp_text reference ConnC1 (at 0 4.953 270) (layer B.SilkS) hide
+    (fp_text reference ConnC1 (at 5.842 2.413 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Molex_SL_10 (at 0 6.858 270) (layer B.Fab) hide
+    (fp_text value Molex_SL_10 (at -4.572 2.413 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -3.81 7.62) (end -3.81 13.208) (layer B.SilkS) (width 0.15))
@@ -2435,10 +2435,10 @@
   (module MRDT_Connectors:MOLEX_SL_10_Horizontal (layer B.Cu) (tedit 5C22EB85) (tstamp 5D8EA8CA)
     (at 198.374 99.06 90)
     (path /5D909889)
-    (fp_text reference ConnC2 (at -8.509 4.318 270) (layer B.SilkS) hide
+    (fp_text reference ConnC2 (at -4.318 2.54 -90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Molex_SL_10 (at 1.905 3.302 270) (layer B.Fab) hide
+    (fp_text value Molex_SL_10 (at 5.715 2.667 -90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -12.7 -1.27) (end -12.7 1.27) (layer B.SilkS) (width 0.15))
@@ -2490,10 +2490,10 @@
   (module MRDT_Connectors:MOLEX_SL_08_Horizontal (layer B.Cu) (tedit 5C22EB39) (tstamp 5D8EA8E8)
     (at 85.598 71.501 270)
     (path /5D90B5DC)
-    (fp_text reference ConnD1 (at -0.381 3.683 270) (layer B.SilkS) hide
+    (fp_text reference ConnD1 (at 6.477 2.413 270) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Molex_SL_08 (at 0.254 6.223 270) (layer B.Fab) hide
+    (fp_text value Molex_SL_08 (at -3.81 2.413 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -10.16 -1.27) (end -10.16 1.27) (layer B.SilkS) (width 0.15))
@@ -2590,10 +2590,10 @@
   (module MRDT_Connectors:MOLEX_SL_04_Horizontal (layer B.Cu) (tedit 5C675A73) (tstamp 5D8EB6C5)
     (at 140.208 118.364)
     (path /5D9064E6)
-    (fp_text reference ConnIN1 (at 0.127 6.096) (layer B.SilkS) hide
+    (fp_text reference ConnIN1 (at -1.397 4.064) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Molex_SL_04 (at 0.127 3.556) (layer B.Fab) hide
+    (fp_text value Molex_SL_04 (at -1.524 2.286) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -6.985 13.208) (end 6.985 13.208) (layer B.SilkS) (width 0.15))
