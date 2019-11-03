@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:2019_Tive_Breakout-cache
+LIBS:Tiva_Breakout_Hardware-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -62,7 +62,7 @@ Wire Wire Line
 	1050 5400 800  5400
 Wire Notes Line
 	2200 5950 2200 4250
-Text Notes 800  5750 0    118  ~ 0
+Text Notes 800  5750 0    118  ~ 24
 Power Input
 NoConn ~ 8600 1750
 NoConn ~ 8650 3400
@@ -183,24 +183,6 @@ Wire Wire Line
 Wire Wire Line
 	8850 2900 8950 2900
 Wire Wire Line
-	1050 1350 1500 1350
-Wire Wire Line
-	1050 1450 1500 1450
-Wire Wire Line
-	1050 1550 1500 1550
-Wire Wire Line
-	1050 1650 1500 1650
-Wire Wire Line
-	1050 1750 1500 1750
-Wire Wire Line
-	1050 1850 1500 1850
-Wire Wire Line
-	1050 1950 1500 1950
-Wire Wire Line
-	1050 2050 1500 2050
-Wire Wire Line
-	1050 2150 1500 2150
-Wire Wire Line
 	3700 1450 4300 1450
 Wire Wire Line
 	3700 1550 4300 1550
@@ -214,8 +196,6 @@ Wire Wire Line
 	3700 1950 4300 1950
 Wire Wire Line
 	3700 2050 4300 2050
-Wire Wire Line
-	3700 2150 4300 2150
 Wire Wire Line
 	5950 1350 6400 1350
 Wire Wire Line
@@ -237,60 +217,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 2250 6400 2250
 Wire Wire Line
-	8600 1450 9200 1450
-Wire Wire Line
-	8600 1550 9200 1550
-Wire Wire Line
-	8600 1650 9200 1650
-Wire Wire Line
-	8600 1850 8700 1850
-Wire Wire Line
-	8700 1850 8700 1750
-Wire Wire Line
-	8700 1750 9200 1750
-Wire Wire Line
-	8600 1950 8800 1950
-Wire Wire Line
-	8800 1950 8800 1850
-Wire Wire Line
-	8800 1850 9200 1850
-Wire Wire Line
-	8600 2050 8900 2050
-Wire Wire Line
-	8900 2050 8900 1950
-Wire Wire Line
-	8900 1950 9200 1950
-Wire Wire Line
-	8600 2150 9000 2150
-Wire Wire Line
-	9000 2150 9000 2050
-Wire Wire Line
-	9000 2050 9200 2050
-Wire Wire Line
-	8600 2250 9100 2250
-Wire Wire Line
-	9100 2250 9100 2150
-Wire Wire Line
-	9100 2150 9200 2150
-Wire Wire Line
-	1050 3100 1500 3100
-Wire Wire Line
-	1050 3200 1500 3200
-Wire Wire Line
-	1050 3300 1500 3300
-Wire Wire Line
-	1050 3400 1500 3400
-Wire Wire Line
-	1050 3500 1500 3500
-Wire Wire Line
-	1050 3600 1500 3600
-Wire Wire Line
-	1050 3700 1500 3700
-Wire Wire Line
-	1050 3800 1500 3800
-Wire Wire Line
-	1050 3900 1500 3900
-Wire Wire Line
 	4300 3200 3700 3200
 Wire Wire Line
 	3700 3300 4300 3300
@@ -298,72 +224,8 @@ Wire Wire Line
 	3700 3400 4300 3400
 Wire Wire Line
 	3700 3500 4300 3500
-Wire Wire Line
-	3700 3600 4300 3600
-Wire Wire Line
-	3700 3700 4300 3700
-Wire Wire Line
-	3700 3800 4300 3800
-Wire Wire Line
-	3700 3900 4300 3900
-Wire Wire Line
-	6000 3000 6450 3000
-Wire Wire Line
-	6000 3100 6450 3100
-Wire Wire Line
-	6000 3200 6450 3200
-Wire Wire Line
-	6000 3300 6450 3300
-Wire Wire Line
-	6000 3400 6450 3400
-Wire Wire Line
-	6000 3500 6450 3500
-Wire Wire Line
-	6000 3600 6450 3600
-Wire Wire Line
-	6000 3700 6450 3700
-Wire Wire Line
-	6000 3800 6450 3800
-Wire Wire Line
-	6000 3900 6450 3900
-Wire Wire Line
-	8650 3100 9250 3100
-Wire Wire Line
-	8650 3200 9250 3200
-Wire Wire Line
-	8650 3300 9250 3300
-Wire Wire Line
-	8650 3500 8750 3500
-Wire Wire Line
-	8750 3500 8750 3400
-Wire Wire Line
-	8750 3400 9250 3400
-Wire Wire Line
-	8650 3600 8850 3600
-Wire Wire Line
-	8850 3600 8850 3500
-Wire Wire Line
-	8850 3500 9250 3500
-Wire Wire Line
-	8650 3700 8950 3700
-Wire Wire Line
-	8950 3700 8950 3600
-Wire Wire Line
-	8950 3600 9250 3600
-Wire Wire Line
-	8650 3800 9050 3800
-Wire Wire Line
-	9050 3800 9050 3700
-Wire Wire Line
-	9050 3700 9250 3700
-Wire Wire Line
-	8650 3900 9150 3900
-Wire Wire Line
-	9150 3900 9150 3800
-Wire Wire Line
-	9150 3800 9250 3800
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L Tiva_Breakout_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
 U 1 1 5D8EFD0D
 P 1700 2200
 F 0 "U1" H 1750 3350 60  0000 L CNN
@@ -374,7 +236,7 @@ F 3 "" H 1700 2200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L Tiva_Breakout_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
 U 2 1 5D8F2703
 P 3500 2200
 F 0 "U1" H 3650 3350 60  0000 C CNN
@@ -385,7 +247,7 @@ F 3 "" H 3500 2200 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L Tiva_Breakout_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
 U 3 1 5D8F4A55
 P 6600 2300
 F 0 "U1" H 6650 3450 60  0000 L CNN
@@ -396,7 +258,7 @@ F 3 "" H 6600 2300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L Tiva_Breakout_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
 U 4 1 5D8F6A14
 P 8400 2300
 F 0 "U1" H 8550 3450 60  0000 C CNN
@@ -407,7 +269,7 @@ F 3 "" H 8400 2300 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L Tiva_Breakout_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
 U 5 1 5D8FA8C6
 P 1700 3950
 F 0 "U1" H 1750 5100 60  0000 L CNN
@@ -418,7 +280,7 @@ F 3 "" H 1700 3950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L Tiva_Breakout_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
 U 6 1 5D8FCD2A
 P 3500 3950
 F 0 "U1" H 3650 5100 60  0000 C CNN
@@ -429,7 +291,7 @@ F 3 "" H 3500 3950 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L Tiva_Breakout_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
 U 7 1 5D8FEE4B
 P 6650 3950
 F 0 "U1" H 6700 5100 60  0000 L CNN
@@ -440,7 +302,7 @@ F 3 "" H 6650 3950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L Tiva_Breakout_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
 U 8 1 5D900FA8
 P 8450 3950
 F 0 "U1" H 8550 5100 60  0000 C CNN
@@ -451,7 +313,7 @@ F 3 "" H 8450 3950 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_04 ConnIN1
+L Tiva_Breakout_Hardware-rescue:Molex_SL_04-MRDT_Connectors ConnIN1
 U 1 1 5D9064E6
 P 1250 5000
 F 0 "ConnIN1" H 1150 5550 60  0000 L CNN
@@ -462,29 +324,7 @@ F 3 "" H 1250 5000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_09 ConnA1
-U 1 1 5D907061
-P 850 2200
-F 0 "ConnA1" H 792 3297 60  0000 C CNN
-F 1 "Molex_SL_09" H 792 3191 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_09_Horizontal" H 850 2600 60  0001 C CNN
-F 3 "" H 850 2600 60  0001 C CNN
-	1    850  2200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_09 ConnA2
-U 1 1 5D907F21
-P 850 3950
-F 0 "ConnA2" H 792 5047 60  0000 C CNN
-F 1 "Molex_SL_09" H 792 4941 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_09_Horizontal" H 850 4350 60  0001 C CNN
-F 3 "" H 850 4350 60  0001 C CNN
-	1    850  3950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_10 ConnC1
+L Tiva_Breakout_Hardware-rescue:Molex_SL_10-MRDT_Connectors ConnC1
 U 1 1 5D908EEE
 P 5750 2300
 F 0 "ConnC1" H 5692 3497 60  0000 C CNN
@@ -494,53 +334,9 @@ F 3 "" H 5750 2800 60  0001 C CNN
 	1    5750 2300
 	-1   0    0    -1  
 $EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_10 ConnC2
-U 1 1 5D909889
-P 5800 3950
-F 0 "ConnC2" H 5742 5147 60  0000 C CNN
-F 1 "Molex_SL_10" H 5742 5041 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_10_Horizontal" H 5800 4450 60  0001 C CNN
-F 3 "" H 5800 4450 60  0001 C CNN
-	1    5800 3950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_08 ConnB1
-U 1 1 5D90A1BA
-P 4500 2200
-F 0 "ConnB1" H 4400 3200 60  0000 L CNN
-F 1 "Molex_SL_08" H 4300 3100 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 4500 2500 60  0001 C CNN
-F 3 "" H 4500 2500 60  0001 C CNN
-	1    4500 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_08 ConnD1
-U 1 1 5D90B5DC
-P 9400 2200
-F 0 "ConnD1" H 9300 3200 60  0000 L CNN
-F 1 "Molex_SL_08" H 9200 3100 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 9400 2500 60  0001 C CNN
-F 3 "" H 9400 2500 60  0001 C CNN
-	1    9400 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_08 ConnB2
-U 1 1 5D90C0A3
-P 4500 3950
-F 0 "ConnB2" H 4400 4950 60  0000 L CNN
-F 1 "Molex_SL_08" H 4300 4850 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 4500 4250 60  0001 C CNN
-F 3 "" H 4500 4250 60  0001 C CNN
-	1    4500 3950
-	1    0    0    -1  
-$EndComp
-Text Notes 2400 900  0    197  ~ 0
+Text Notes 2400 900  0    197  ~ 39
 30V
-Text Notes 3650 2700 0    197  ~ 0
+Text Notes 3650 2700 0    197  ~ 39
 12V
 Wire Wire Line
 	3900 2900 4050 2900
@@ -554,25 +350,12 @@ Text Notes 3750 3400 0    59   ~ 0
 LOG_CRRT
 Text Notes 3750 3500 0    59   ~ 0
 ACT_CRRT
-Wire Notes Line
-	450  2350 5350 2350
-Text Notes 6700 950  0    197  ~ 0
+Text Notes 5400 850  0    197  ~ 39
 Patch Panel
 Wire Notes Line
 	2650 4250 2650 2350
-Text Notes 650  2700 0    197  ~ 0
+Text Notes 650  2700 0    197  ~ 39
 Unassigned
-$Comp
-L MRDT_Connectors:Molex_SL_08 ConnD2
-U 1 1 5D90C85E
-P 9450 3850
-F 0 "ConnD2" H 9350 4850 60  0000 L CNN
-F 1 "Molex_SL_08" H 9250 4750 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 9450 4150 60  0001 C CNN
-F 3 "" H 9450 4150 60  0001 C CNN
-	1    9450 3850
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	450  4250 10250 4250
 Wire Notes Line
@@ -585,4 +368,99 @@ Wire Notes Line
 	10250 450  10250 4250
 Wire Notes Line
 	450  450  10250 450 
+$Comp
+L Tiva_Breakout_Hardware-rescue:Molex_SL_04-MRDT_Connectors 12V_B2
+U 1 1 5DC19990
+P 4500 3550
+F 0 "12V_B2" H 4450 4150 60  0000 L CNN
+F 1 "Molex_SL_04" H 4350 4050 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 4500 3550 60  0001 C CNN
+F 3 "" H 4500 3550 60  0001 C CNN
+	1    4500 3550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3700 3600
+NoConn ~ 3700 3700
+NoConn ~ 3700 3800
+NoConn ~ 3700 3900
+NoConn ~ 1500 3100
+NoConn ~ 1500 3200
+NoConn ~ 1500 3300
+NoConn ~ 1500 3400
+NoConn ~ 1500 3500
+NoConn ~ 1500 3600
+NoConn ~ 1500 3700
+NoConn ~ 1500 3800
+NoConn ~ 1500 3900
+NoConn ~ 8600 1450
+NoConn ~ 8600 1550
+NoConn ~ 8600 1650
+NoConn ~ 8600 1850
+NoConn ~ 8600 1950
+NoConn ~ 8600 2050
+NoConn ~ 8600 2150
+NoConn ~ 8600 2250
+NoConn ~ 6450 3000
+NoConn ~ 6450 3100
+NoConn ~ 6450 3200
+NoConn ~ 6450 3300
+NoConn ~ 6450 3400
+NoConn ~ 6450 3500
+NoConn ~ 6450 3600
+NoConn ~ 6450 3700
+NoConn ~ 6450 3800
+NoConn ~ 6450 3900
+NoConn ~ 8650 3900
+NoConn ~ 8650 3800
+NoConn ~ 8650 3700
+NoConn ~ 8650 3600
+NoConn ~ 8650 3500
+NoConn ~ 8650 3300
+NoConn ~ 8650 3200
+NoConn ~ 8650 3100
+Wire Notes Line
+	7550 2350 7550 450 
+Wire Notes Line
+	450  2350 7550 2350
+Text Notes 7800 850  0    197  ~ 39
+Unassigned
+$Comp
+L Tiva_Breakout_Hardware-rescue:Molex_SL_07-MRDT_Connectors 30V_A1
+U 1 1 5DBFC3B6
+P 950 2000
+F 0 "30V_A1" H 892 2897 60  0000 C CNN
+F 1 "Molex_SL_07" H 892 2791 60  0000 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_07_Horizontal" H 950 2200 60  0001 C CNN
+F 3 "" H 950 2200 60  0001 C CNN
+	1    950  2000
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 3700 2150
+NoConn ~ 1500 2150
+NoConn ~ 1500 2050
+Wire Wire Line
+	1150 1350 1500 1350
+Wire Wire Line
+	1500 1450 1150 1450
+Wire Wire Line
+	1150 1550 1500 1550
+Wire Wire Line
+	1500 1650 1150 1650
+Wire Wire Line
+	1150 1750 1500 1750
+Wire Wire Line
+	1500 1850 1150 1850
+Wire Wire Line
+	1150 1950 1500 1950
+$Comp
+L Tiva_Breakout_Hardware-rescue:Molex_SL_07-MRDT_Connectors 30V_B1
+U 1 1 5DC09C1D
+P 4500 2100
+F 0 "30V_B1" H 4450 3000 60  0000 L CNN
+F 1 "Molex_SL_07" H 4300 2900 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_07_Horizontal" H 4500 2300 60  0001 C CNN
+F 3 "" H 4500 2300 60  0001 C CNN
+	1    4500 2100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
