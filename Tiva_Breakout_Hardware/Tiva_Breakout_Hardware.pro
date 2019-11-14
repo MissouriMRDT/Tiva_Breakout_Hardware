@@ -1,4 +1,4 @@
-update=27-Sep-19 20:04:14
+update=14-Nov-19 15:37:43
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=2019_Tive_Breakout.net
+LastNetListRead=Tiva_Breakout_Hardware.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -69,7 +69,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

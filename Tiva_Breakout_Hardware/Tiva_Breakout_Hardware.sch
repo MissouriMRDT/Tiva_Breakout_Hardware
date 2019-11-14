@@ -195,27 +195,25 @@ Wire Wire Line
 Wire Wire Line
 	3700 1950 4300 1950
 Wire Wire Line
-	3700 2050 4300 2050
+	6000 3000 6450 3000
 Wire Wire Line
-	5950 1350 6400 1350
+	6000 3100 6450 3100
 Wire Wire Line
-	5950 1450 6400 1450
+	6000 3200 6450 3200
 Wire Wire Line
-	5950 1550 6400 1550
+	6000 3300 6450 3300
 Wire Wire Line
-	5950 1650 6400 1650
+	6000 3400 6450 3400
 Wire Wire Line
-	5950 1750 6400 1750
+	6000 3500 6450 3500
 Wire Wire Line
-	5950 1850 6400 1850
+	6000 3600 6450 3600
 Wire Wire Line
-	5950 1950 6400 1950
+	6000 3700 6450 3700
 Wire Wire Line
-	5950 2050 6400 2050
+	6000 3800 6450 3800
 Wire Wire Line
-	5950 2150 6400 2150
-Wire Wire Line
-	5950 2250 6400 2250
+	6000 3900 6450 3900
 Wire Wire Line
 	4300 3200 3700 3200
 Wire Wire Line
@@ -249,12 +247,12 @@ $EndComp
 $Comp
 L Tiva_Breakout_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
 U 3 1 5D8F4A55
-P 6600 2300
-F 0 "U1" H 6650 3450 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" V 6950 2350 60  0000 L CNN
-F 2 "MRDT_Shields:Tiva_Breakout" H 6600 2300 60  0001 C CNN
-F 3 "" H 6600 2300 60  0001 C CNN
-	3    6600 2300
+P 6650 2150
+F 0 "U1" H 6700 3300 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" V 7000 2200 60  0000 L CNN
+F 2 "MRDT_Shields:Tiva_Breakout" H 6650 2150 60  0001 C CNN
+F 3 "" H 6650 2150 60  0001 C CNN
+	3    6650 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -324,14 +322,14 @@ F 3 "" H 1250 5000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tiva_Breakout_Hardware-rescue:Molex_SL_10-MRDT_Connectors ConnC1
+L Tiva_Breakout_Hardware-rescue:Molex_SL_10-MRDT_Connectors ConnPCH_C2
 U 1 1 5D908EEE
-P 5750 2300
-F 0 "ConnC1" H 5692 3497 60  0000 C CNN
-F 1 "Molex_SL_10" H 5692 3391 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_10_Horizontal" H 5750 2800 60  0001 C CNN
-F 3 "" H 5750 2800 60  0001 C CNN
-	1    5750 2300
+P 5800 3950
+F 0 "ConnPCH_C2" H 5742 5147 60  0000 C CNN
+F 1 "Molex_SL_10" H 5742 5041 60  0000 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_10_Horizontal" H 5800 4450 60  0001 C CNN
+F 3 "" H 5800 4450 60  0001 C CNN
+	1    5800 3950
 	-1   0    0    -1  
 $EndComp
 Text Notes 2400 900  0    197  ~ 39
@@ -400,16 +398,6 @@ NoConn ~ 8600 1950
 NoConn ~ 8600 2050
 NoConn ~ 8600 2150
 NoConn ~ 8600 2250
-NoConn ~ 6450 3000
-NoConn ~ 6450 3100
-NoConn ~ 6450 3200
-NoConn ~ 6450 3300
-NoConn ~ 6450 3400
-NoConn ~ 6450 3500
-NoConn ~ 6450 3600
-NoConn ~ 6450 3700
-NoConn ~ 6450 3800
-NoConn ~ 6450 3900
 NoConn ~ 8650 3900
 NoConn ~ 8650 3800
 NoConn ~ 8650 3700
@@ -424,20 +412,7 @@ Wire Notes Line
 	450  2350 7550 2350
 Text Notes 7800 850  0    197  ~ 39
 Unassigned
-$Comp
-L Tiva_Breakout_Hardware-rescue:Molex_SL_07-MRDT_Connectors 30V_A1
-U 1 1 5DBFC3B6
-P 950 2000
-F 0 "30V_A1" H 892 2897 60  0000 C CNN
-F 1 "Molex_SL_07" H 892 2791 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_07_Horizontal" H 950 2200 60  0001 C CNN
-F 3 "" H 950 2200 60  0001 C CNN
-	1    950  2000
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 3700 2150
 NoConn ~ 1500 2150
-NoConn ~ 1500 2050
 Wire Wire Line
 	1150 1350 1500 1350
 Wire Wire Line
@@ -450,17 +425,44 @@ Wire Wire Line
 	1150 1750 1500 1750
 Wire Wire Line
 	1500 1850 1150 1850
-Wire Wire Line
-	1150 1950 1500 1950
 $Comp
-L Tiva_Breakout_Hardware-rescue:Molex_SL_07-MRDT_Connectors 30V_B1
-U 1 1 5DC09C1D
-P 4500 2100
-F 0 "30V_B1" H 4450 3000 60  0000 L CNN
-F 1 "Molex_SL_07" H 4300 2900 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_07_Horizontal" H 4500 2300 60  0001 C CNN
-F 3 "" H 4500 2300 60  0001 C CNN
-	1    4500 2100
+L MRDT_Connectors:Molex_SL_08 Conn30V_L1
+U 1 1 5DCE1DDF
+P 950 2100
+F 0 "Conn30V_L1" H 892 3097 60  0000 C CNN
+F 1 "Molex_SL_08" H 892 2991 60  0000 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 950 2400 60  0001 C CNN
+F 3 "" H 950 2400 60  0001 C CNN
+	1    950  2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_08 Conn30V_R1
+U 1 1 5DCE5C02
+P 4500 2200
+F 0 "Conn30V_R1" H 4628 2658 60  0000 L CNN
+F 1 "Molex_SL_08" H 4628 2552 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 4500 2500 60  0001 C CNN
+F 3 "" H 4500 2500 60  0001 C CNN
+	1    4500 2200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3700 2050 4300 2050
+Wire Wire Line
+	3700 2150 4300 2150
+NoConn ~ 1500 1950
+NoConn ~ 1500 2050
+NoConn ~ 1150 2050
+NoConn ~ 1150 1950
+NoConn ~ 6450 1200
+NoConn ~ 6450 1300
+NoConn ~ 6450 1400
+NoConn ~ 6450 1500
+NoConn ~ 6450 1600
+NoConn ~ 6450 1700
+NoConn ~ 6450 1800
+NoConn ~ 6450 1900
+NoConn ~ 6450 2000
+NoConn ~ 6450 2100
 $EndSCHEMATC
