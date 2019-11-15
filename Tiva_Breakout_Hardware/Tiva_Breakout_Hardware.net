@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\patch\OneDrive\Documents\MRDT\Tiva_Breakout_Hardware\Tiva_Breakout_Hardware\Tiva_Breakout_Hardware.sch)
-    (date "14-Nov-19 15:55:30")
+    (date "14-Nov-19 20:29:42")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

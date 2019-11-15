@@ -447,14 +447,6 @@ F 3 "" H 4500 2500 60  0001 C CNN
 	1    4500 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3700 2050 4300 2050
-Wire Wire Line
-	3700 2150 4300 2150
-NoConn ~ 1500 1950
-NoConn ~ 1500 2050
-NoConn ~ 1150 2050
-NoConn ~ 1150 1950
 NoConn ~ 6450 1200
 NoConn ~ 6450 1300
 NoConn ~ 6450 1400
@@ -465,4 +457,12 @@ NoConn ~ 6450 1800
 NoConn ~ 6450 1900
 NoConn ~ 6450 2000
 NoConn ~ 6450 2100
+Wire Wire Line
+	3700 2050 4300 2050
+Wire Wire Line
+	3700 2150 4300 2150
+Wire Wire Line
+	1150 1950 1500 1950
+Wire Wire Line
+	1150 2050 1500 2050
 $EndSCHEMATC
