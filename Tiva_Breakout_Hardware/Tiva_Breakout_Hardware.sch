@@ -17,67 +17,32 @@ $EndDescr
 $Comp
 L power:GND #PWR0101
 U 1 1 5D91D7D5
-P 800 4850
-F 0 "#PWR0101" H 800 4600 50  0001 C CNN
-F 1 "GND" H 805 4677 50  0000 C CNN
-F 2 "" H 800 4850 50  0001 C CNN
-F 3 "" H 800 4850 50  0001 C CNN
-	1    800  4850
+P 750 4950
+F 0 "#PWR0101" H 750 4700 50  0001 C CNN
+F 1 "GND" H 755 4777 50  0000 C CNN
+F 2 "" H 750 4950 50  0001 C CNN
+F 3 "" H 750 4950 50  0001 C CNN
+	1    750  4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 4850 800  4850
+	750  4950 750  4850
 Wire Wire Line
-	800  4850 800  4750
-Wire Wire Line
-	800  4750 1050 4750
-Connection ~ 800  4850
-$Comp
-L power:+5VA #PWR0102
-U 1 1 5D91FD34
-P 800 5400
-F 0 "#PWR0102" H 800 5250 50  0001 C CNN
-F 1 "+5VA" H 815 5573 50  0000 C CNN
-F 2 "" H 800 5400 50  0001 C CNN
-F 3 "" H 800 5400 50  0001 C CNN
-	1    800  5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	800  4650 1050 4650
+	750  4850 1000 4850
 $Comp
 L power:+3V3 #PWR0103
 U 1 1 5D920B87
-P 800 4650
-F 0 "#PWR0103" H 800 4500 50  0001 C CNN
-F 1 "+3V3" H 815 4823 50  0000 C CNN
-F 2 "" H 800 4650 50  0001 C CNN
-F 3 "" H 800 4650 50  0001 C CNN
-	1    800  4650
+P 750 4750
+F 0 "#PWR0103" H 750 4600 50  0001 C CNN
+F 1 "+3V3" H 765 4923 50  0000 C CNN
+F 2 "" H 750 4750 50  0001 C CNN
+F 3 "" H 750 4750 50  0001 C CNN
+	1    750  4750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1050 4950 1050 5400
-Wire Wire Line
-	1050 5400 800  5400
-Wire Notes Line
-	2200 5950 2200 4250
 Text Notes 800  5750 0    118  ~ 24
 Power Input
 NoConn ~ 8650 3400
-$Comp
-L power:+5VA #PWR0104
-U 1 1 5D92EDF1
-P 3850 3000
-F 0 "#PWR0104" H 3850 2850 50  0001 C CNN
-F 1 "+5VA" H 3750 3150 50  0000 C CNN
-F 2 "" H 3850 3000 50  0001 C CNN
-F 3 "" H 3850 3000 50  0001 C CNN
-	1    3850 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 3000 3850 3000
 $Comp
 L power:+3V3 #PWR0105
 U 1 1 5D930359
@@ -105,33 +70,18 @@ Wire Wire Line
 Wire Wire Line
 	1350 1250 1500 1250
 Wire Wire Line
-	3900 1250 4000 1250
+	3600 1200 3700 1200
 Wire Wire Line
-	3900 1350 3900 1250
-Wire Wire Line
-	3700 1350 3900 1350
+	3400 1350 3600 1350
 $Comp
 L power:GND #PWR0107
 U 1 1 5D932528
-P 4000 1250
-F 0 "#PWR0107" H 4000 1000 50  0001 C CNN
-F 1 "GND" H 4000 1100 50  0000 C CNN
-F 2 "" H 4000 1250 50  0001 C CNN
-F 3 "" H 4000 1250 50  0001 C CNN
-	1    4000 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 1250 3850 1250
-$Comp
-L power:+5VA #PWR0108
-U 1 1 5D92E21C
-P 3850 1250
-F 0 "#PWR0108" H 3850 1100 50  0001 C CNN
-F 1 "+5VA" H 3865 1423 50  0000 C CNN
-F 2 "" H 3850 1250 50  0001 C CNN
-F 3 "" H 3850 1250 50  0001 C CNN
-	1    3850 1250
+P 3700 1200
+F 0 "#PWR0107" H 3700 950 50  0001 C CNN
+F 1 "GND" H 3700 1050 50  0000 C CNN
+F 2 "" H 3700 1200 50  0001 C CNN
+F 3 "" H 3700 1200 50  0001 C CNN
+	1    3700 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -182,18 +132,6 @@ Wire Wire Line
 Wire Wire Line
 	8850 2900 8950 2900
 Wire Wire Line
-	3700 1450 4300 1450
-Wire Wire Line
-	3700 1550 4300 1550
-Wire Wire Line
-	3700 1650 4300 1650
-Wire Wire Line
-	3700 1750 4300 1750
-Wire Wire Line
-	3700 1850 4300 1850
-Wire Wire Line
-	3700 1950 4300 1950
-Wire Wire Line
 	6000 1200 6450 1200
 Wire Wire Line
 	6000 1300 6450 1300
@@ -227,12 +165,12 @@ $EndComp
 $Comp
 L Tiva_Breakout_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
 U 2 1 5D8F2703
-P 3500 2200
-F 0 "U1" H 3650 3350 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" V 3850 2750 60  0000 C CNN
-F 2 "MRDT_Shields:Tiva_Breakout" H 3500 2200 60  0001 C CNN
-F 3 "" H 3500 2200 60  0001 C CNN
-	2    3500 2200
+P 3200 2200
+F 0 "U1" H 3350 3350 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" V 3550 2750 60  0000 C CNN
+F 2 "MRDT_Shields:Tiva_Breakout" H 3200 2200 60  0001 C CNN
+F 3 "" H 3200 2200 60  0001 C CNN
+	2    3200 2200
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -291,17 +229,6 @@ F 3 "" H 8450 3950 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Tiva_Breakout_Hardware-rescue:Molex_SL_04-MRDT_Connectors ConnIN1
-U 1 1 5D9064E6
-P 1250 5000
-F 0 "ConnIN1" H 1150 5550 60  0000 L CNN
-F 1 "Molex_SL_04" H 1050 5450 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 1250 5000 60  0001 C CNN
-F 3 "" H 1250 5000 60  0001 C CNN
-	1    1250 5000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Tiva_Breakout_Hardware-rescue:Molex_SL_10-MRDT_Connectors ConnPCH_C2
 U 1 1 5D908EEE
 P 5800 2150
@@ -312,22 +239,18 @@ F 3 "" H 5800 2650 60  0001 C CNN
 	1    5800 2150
 	-1   0    0    -1  
 $EndComp
-Text Notes 2400 900  0    197  ~ 39
+Text Notes 3700 950  0    197  ~ 39
 30V
-Text Notes 3650 2700 0    197  ~ 39
+Text Notes 1100 850  0    197  ~ 39
 12V
 Wire Wire Line
 	3900 2800 4050 2800
 Text Notes 5400 850  0    197  ~ 39
 Patch Panel
-Wire Notes Line
-	2650 4250 2650 2350
 Text Notes 650  2700 0    197  ~ 39
 Unassigned
 Wire Notes Line
 	450  4250 10250 4250
-Wire Notes Line
-	450  5950 2200 5950
 Wire Notes Line
 	450  450  450  5950
 Wire Notes Line
@@ -357,8 +280,6 @@ NoConn ~ 8650 3200
 NoConn ~ 8650 3100
 Wire Notes Line
 	7550 2350 7550 450 
-Wire Notes Line
-	450  2350 7550 2350
 Text Notes 7800 850  0    197  ~ 39
 Unassigned
 NoConn ~ 1500 2150
@@ -388,18 +309,14 @@ $EndComp
 $Comp
 L MRDT_Connectors:Molex_SL_08 Conn30V_R1
 U 1 1 5DCE5C02
-P 4500 2200
-F 0 "Conn30V_R1" H 4628 2658 60  0000 L CNN
-F 1 "Molex_SL_08" H 4628 2552 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 4500 2500 60  0001 C CNN
-F 3 "" H 4500 2500 60  0001 C CNN
-	1    4500 2200
+P 4600 2200
+F 0 "Conn30V_R1" H 4728 2658 60  0000 L CNN
+F 1 "Molex_SL_08" H 4728 2552 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 4600 2500 60  0001 C CNN
+F 3 "" H 4600 2500 60  0001 C CNN
+	1    4600 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3700 2050 4300 2050
-Wire Wire Line
-	3700 2150 4300 2150
 NoConn ~ 4050 3000
 NoConn ~ 4050 3100
 Wire Wire Line
@@ -455,4 +372,121 @@ Wire Wire Line
 	1500 1650 900  1650
 Wire Wire Line
 	900  1550 1500 1550
+$Comp
+L Device:R_Small R1
+U 1 1 5DD79B1A
+P 1900 4750
+F 0 "R1" V 1704 4750 50  0000 C CNN
+F 1 "330" V 1795 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1900 4750 50  0001 C CNN
+F 3 "~" H 1900 4750 50  0001 C CNN
+	1    1900 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small D1
+U 1 1 5DD80F85
+P 2200 4750
+F 0 "D1" H 2200 4545 50  0000 C CNN
+F 1 "3V3_LED" H 2200 4636 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2200 4750 50  0001 C CNN
+F 3 "~" V 2200 4750 50  0001 C CNN
+	1    2200 4750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 4750 2100 4750
+$Comp
+L power:GND #PWR0112
+U 1 1 5DD86867
+P 2400 4750
+F 0 "#PWR0112" H 2400 4500 50  0001 C CNN
+F 1 "GND" H 2405 4577 50  0000 C CNN
+F 2 "" H 2400 4750 50  0001 C CNN
+F 3 "" H 2400 4750 50  0001 C CNN
+	1    2400 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4750 2400 4750
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn1
+U 1 1 5DD89AFE
+P 1200 4900
+F 0 "Conn1" H 1100 4850 60  0000 L CNN
+F 1 "Molex_SL_02" H 1000 4750 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 1200 4800 60  0001 C CNN
+F 3 "" H 1200 4800 60  0001 C CNN
+	1    1200 4900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3700 3000
+NoConn ~ 3400 1250
+NoConn ~ 6450 3000
+NoConn ~ 6450 3100
+NoConn ~ 6450 3200
+NoConn ~ 6450 3300
+NoConn ~ 6450 3400
+NoConn ~ 6450 3500
+NoConn ~ 6450 3600
+NoConn ~ 6450 3700
+NoConn ~ 6450 3800
+NoConn ~ 6450 3900
+Wire Notes Line
+	450  2300 2650 2300
+Wire Notes Line
+	7550 2350 5350 2350
+Wire Wire Line
+	3600 1200 3600 1350
+Text GLabel 3400 1450 2    50   Input ~ 0
+EX_CURR
+Text GLabel 3400 1550 2    50   Input ~ 0
+12V_CURR
+Text GLabel 3400 1650 2    50   Input ~ 0
+AUX_CURR
+Text GLabel 3400 1750 2    50   Input ~ 0
+RKT_CURR
+Text GLabel 3400 1850 2    50   Input ~ 0
+RKT_ON
+Text GLabel 3400 1950 2    50   Input ~ 0
+AUX_ON
+Text GLabel 3400 2050 2    50   Input ~ 0
+12V_ON
+Text GLabel 3400 2150 2    50   Input ~ 0
+EX_ON
+Text GLabel 4400 1450 0    50   Input ~ 0
+EX_ON
+Text GLabel 4400 1550 0    50   Input ~ 0
+EX_CURR
+Text GLabel 4400 1650 0    50   Input ~ 0
+12V_ON
+Text GLabel 4400 1750 0    50   Input ~ 0
+12V_CURR
+Text GLabel 4400 1850 0    50   Input ~ 0
+AUX_ON
+Text GLabel 4400 1950 0    50   Input ~ 0
+AUX_CURR
+Text GLabel 4400 2050 0    50   Input ~ 0
+RKT_ON
+Text GLabel 4400 2150 0    50   Input ~ 0
+RKT_CURR
+Wire Notes Line
+	2650 450  2650 5950
+Wire Notes Line
+	450  5950 2650 5950
+Wire Wire Line
+	750  4750 1000 4750
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DDB7870
+P 1700 4750
+F 0 "#PWR?" H 1700 4600 50  0001 C CNN
+F 1 "+3V3" H 1715 4923 50  0000 C CNN
+F 2 "" H 1700 4750 50  0001 C CNN
+F 3 "" H 1700 4750 50  0001 C CNN
+	1    1700 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4750 1800 4750
 $EndSCHEMATC
