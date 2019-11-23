@@ -1,0 +1,54 @@
+Tiva_Breakout Rev 1 2020 Pin Map
+Pins that are assigned from the Tiva to the board.
+
+Row A1
+A1_7 (PD3) = ACT_CRRT (Actuation current sensor on 12V Board) [Analog]
+A1_6 (PE5) = LOG_CRRT (Logic current sensor on 12V Board) [Analog]
+A1_5 (PC6) = LOG_CTRL (Logic activation signal on 12V Board) [Digital]
+A1_4 (PC5) = ACT_CTRL (Actuation activation signal on 12V Board) [Digital]
+A1_1 (+3V3) = 3.3V (3.3 Volt signal)
+
+
+Row A2
+A2_1 (+3V3) = 3.3V (3.3 Volt Signal)
+
+Row B1
+B1_10 (PM5) = EX_ON (Spare Bus activation signal) [Digital]
+B1_9 (PM4) = 12V_ON (12V Bus activation signal) [Digital]
+B1_8 (PA6) = AUX_ON (Auxiliary Bus activation signal) [Digital]
+B1_7 (PD7) = RKT_ON (Rocket Bus activation signal) [Digital]
+B1_6 (PE3) = RKT_CURR (Rocket Bus current sensor) [Analog]
+B1_5 (PE2) = AUX_CURR (Auxiliary Bus current sensor) [Analog]
+B1_4 (PE1) = 12V_CURR (12V Bus current sensor) [Analog]
+B1_3 (PE0) = EX_CURR (Spare Bus current sensor) [Analog]
+B1_2 (GND) = GND 
+
+Row B2
+B2_8 (PK3) = M3_CURR (Motor Bus 3 current sensor) [Analog]
+B2_7 (PK2) = M3_ON (Motor Bus 3 activation signal) [Digital]
+B2_6 (PK1) = M2_CURR (Motor Bus 2 current sensor) [Analog]
+B2_5 (PK0) = M2_ON (Motor Bus 2 activation signal) [Digital]
+B2_4 (PB5) = M1_CURR (Motor Bus 1 current sensor) [Analog]
+B2_3 (PB4) = M1_ON (Motor Bus 1 activation signal [Digital]
+B2_2 (GND) = GND
+
+Row C1
+No pins are used
+
+Row C2
+C1_10 (PL3) = PCH_1 (Patch Panel Connector 1  activation signal) [Digital]
+C1_9 (PL3) = PCH_2 (Patch Panel Connector 2  activation signal) [Digital]
+C1_8 (PL3) = PCH_3 (Patch Panel Connector 3  activation signal) [Digital]
+C1_7 (PL3) = PCH_4 (Patch Panel Connector 4  activation signal) [Digital]
+C1_6 (PL3) = PCH_5 (Patch Panel Connector 5  activation signal) [Digital]
+C1_5 (PL3) = PCH_6 (Patch Panel Connector 6  activation signal) [Digital]
+C1_4 (PL3) = PCH_7 (Patch Panel Connector 7  activation signal) [Digital]
+C1_3 (PL3) = PCH_8 (Patch Panel Connector 8  activation signal) [Digital]
+C1_2 (PL3) = TEST_LED1 (Test LED 1 activation signal) [Digital]
+C1_1 (PL3) = TEST_LED2 (Test LED 2 activation signal) [Digital]
+
+Row D1
+D1_1 (GND) = GND
+
+Row D2
+D2_1 (GND) = GND

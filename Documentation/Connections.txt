@@ -1,0 +1,42 @@
+PowerBoard Outgoing and Ingoing Connections
+Incoming
+2 Pin SL- TIVA_3V3
+	1. +3V3
+	2. GND
+
+Incoming/Outgoing
+7 Pin SL- 30V_L
+	1. M3_CURR
+	2. M3_ON
+	3. M2_CURR
+	4. M2_ON
+	5. M1_CURR
+	6. M1_ON
+	7. Unused
+8 Pin SL - 30V_R
+	1. RKT_CURR
+	2. RKT_ON
+	3. AUX_CURR
+	4. AUX_ON
+	5. 12V_CURR
+	6. 12V_ON
+	7. EX_CURR
+	8. EX_ON
+4 Pin SL - 12V
+	1. ACT_CRRT
+	2. LOG_CRRT
+	3. LOG_CTRL
+	4. ACT_CTRL
+
+Outgoing
+10 Pin SL - PATCH PANEL
+	1. TEST_LED2
+	2. TEST_LED1
+	3. PCH_8
+	4. PCH_7
+	5. PCH_6
+	6. PCH_5
+	7. PCH_4
+	8. PCH_3
+	9. PCH_2
+	10. PCH_1

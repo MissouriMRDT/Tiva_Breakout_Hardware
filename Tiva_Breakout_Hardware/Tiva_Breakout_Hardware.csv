@@ -1,7 +1,0 @@
-Id,Designator,Package,Quantity,Designation,Supplier and ref
-1,G***,z_sig_Patrick_Sanchez_15mmx5mm,1,LOGO,
-2,U1,Tiva_Breakout,1,TM4C129E_Launchpad,
-3,"ConnA1,ConnA2",MOLEX_SL_09_Horizontal,2,Molex_SL_09,
-4,"ConnB1,ConnB2,ConnD1,ConnD2",MOLEX_SL_08_Horizontal,4,Molex_SL_08,
-5,"ConnC1,ConnC2",MOLEX_SL_10_Horizontal,2,Molex_SL_10,
-6,ConnIN1,MOLEX_SL_04_Horizontal,1,Molex_SL_04,
