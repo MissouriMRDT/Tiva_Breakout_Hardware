@@ -213,7 +213,7 @@ U 1 1 5DCE1DDF
 P 10250 1850
 F 0 "Conn30V_L1" H 10300 1550 60  0000 C CNN
 F 1 "PH_2x5" H 10300 1450 60  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 10250 2150 60  0001 C CNN
+F 2 "MRDT_Connectors:JTAG_ARM_Connector_10_Pin" H 10250 2150 60  0001 C CNN
 F 3 "" H 10250 2150 60  0001 C CNN
 	1    10250 1850
 	-1   0    0    1   
@@ -224,7 +224,7 @@ U 1 1 5DCE5C02
 P 10250 2450
 F 0 "Conn30V_R1" H 10000 2900 60  0000 L CNN
 F 1 "PH_2x5" H 10150 2800 60  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 10250 2750 60  0001 C CNN
+F 2 "MRDT_Connectors:JTAG_ARM_Connector_10_Pin" H 10250 2750 60  0001 C CNN
 F 3 "" H 10250 2750 60  0001 C CNN
 	1    10250 2450
 	-1   0    0    1   
@@ -992,7 +992,7 @@ U 1 1 5DC19990
 P 10250 5200
 F 0 "12V_A1" H 10150 5650 60  0000 L CNN
 F 1 "PH_2x5" H 10150 5550 60  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 10250 5200 60  0001 C CNN
+F 2 "MRDT_Connectors:JTAG_ARM_Connector_10_Pin" H 10250 5200 60  0001 C CNN
 F 3 "" H 10250 5200 60  0001 C CNN
 	1    10250 5200
 	-1   0    0    1   
@@ -1160,21 +1160,21 @@ Text Notes 2150 4450 0    197  ~ 39
 30V LED
 Text Notes 7650 4500 0    197  ~ 39
 12V LED
-Text GLabel 6350 2150 0    50   Input ~ 0
+Text GLabel 6350 2150 0    50   Output ~ 0
 PB1_EN
-Text GLabel 6350 1450 0    50   Input ~ 0
+Text GLabel 6350 1450 0    50   Output ~ 0
 PB2_EN
-Text GLabel 6350 2050 0    50   Input ~ 0
+Text GLabel 6350 2050 0    50   Output ~ 0
 PB3_EN
-Text GLabel 6350 1550 0    50   Input ~ 0
+Text GLabel 6350 1550 0    50   Output ~ 0
 PB4_EN
-Text GLabel 6350 1950 0    50   Input ~ 0
+Text GLabel 6350 1950 0    50   Output ~ 0
 PB5_EN
-Text GLabel 6350 1650 0    50   Input ~ 0
+Text GLabel 6350 1650 0    50   Output ~ 0
 PB6_EN
-Text GLabel 6350 1850 0    50   Input ~ 0
+Text GLabel 6350 1850 0    50   Output ~ 0
 PB7_EN
-Text GLabel 6350 1750 0    50   Input ~ 0
+Text GLabel 6350 1750 0    50   Output ~ 0
 PB8_EN
 Wire Wire Line
 	6350 1450 6400 1450
@@ -1230,7 +1230,7 @@ U 1 1 5D908EEE
 P 10150 3950
 F 0 "ConnPCH_C2" H 10200 4400 60  0000 C CNN
 F 1 "PH_2x5" H 10200 4300 60  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 10150 4450 60  0001 C CNN
+F 2 "MRDT_Connectors:JTAG_ARM_Connector_10_Pin" H 10150 4450 60  0001 C CNN
 F 3 "" H 10150 4450 60  0001 C CNN
 	1    10150 3950
 	1    0    0    -1  
@@ -1626,10 +1626,10 @@ Wire Notes Line
 	7400 6500 7400 4050
 Wire Notes Line
 	4950 450  4950 4050
-Text Notes 5200 1900 0    157  ~ 31
+Text Notes 5250 1900 0    157  ~ 31
 PATCH
 Wire Notes Line
-	6000 2200 5150 2200
+	6050 2200 5200 2200
 Wire Notes Line
 	450  2300 9200 2300
 Wire Notes Line
@@ -1835,7 +1835,7 @@ Connection ~ 6600 6650
 NoConn ~ 6400 1350
 NoConn ~ 6400 1250
 Wire Notes Line
-	5150 2200 5150 1400
+	5200 2200 5200 1400
 Wire Notes Line
-	5150 1400 6000 1400
+	5200 1400 6050 1400
 $EndSCHEMATC
