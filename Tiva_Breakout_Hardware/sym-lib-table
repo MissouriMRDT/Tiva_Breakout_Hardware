@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name 2019_Tive_Breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/2019_Tive_Breakout-rescue.lib)(options "")(descr ""))
-  (lib (name Tiva_Breakout_Hardware-rescue)(type Legacy)(uri ${KIPRJMOD}/Tiva_Breakout_Hardware-rescue.lib)(options "")(descr ""))
-)
