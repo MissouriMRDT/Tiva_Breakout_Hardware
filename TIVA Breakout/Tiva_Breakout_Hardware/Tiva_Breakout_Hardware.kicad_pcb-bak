@@ -5296,7 +5296,7 @@
     (arrow2b (pts (xy 231.9147 87.5665) (xy 232.501121 88.693004)))
   )
   (gr_arc (start 88.5317 141.605) (end 84.5312 141.605) (angle -90) (layer Edge.Cuts) (width 0.05))
-  (gr_arc (start 221.952812 79.3115) (end 225.953312 79.3115) (angle -90.90938045) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 221.952812 79.3115) (end 225.95332 79.3115) (angle -90.90937863) (layer Edge.Cuts) (width 0.05))
   (dimension 141.4145 (width 0.12) (layer Dwgs.User)
     (gr_text "5.5675 in" (at 155.23845 60.197418) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
