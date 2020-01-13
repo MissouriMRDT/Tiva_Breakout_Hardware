@@ -44,12 +44,12 @@ NoConn ~ 8200 3400
 $Comp
 L power:+3V3 #PWR0105
 U 1 1 5D930359
-P 1350 1250
-F 0 "#PWR0105" H 1350 1100 50  0001 C CNN
-F 1 "+3V3" H 1365 1423 50  0000 C CNN
-F 2 "" H 1350 1250 50  0001 C CNN
-F 3 "" H 1350 1250 50  0001 C CNN
-	1    1350 1250
+P 1800 1250
+F 0 "#PWR0105" H 1800 1100 50  0001 C CNN
+F 1 "+3V3" H 1815 1423 50  0000 C CNN
+F 2 "" H 1800 1250 50  0001 C CNN
+F 3 "" H 1800 1250 50  0001 C CNN
+	1    1800 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -66,7 +66,7 @@ $EndComp
 Wire Wire Line
 	1800 3000 1950 3000
 Wire Wire Line
-	1350 1250 1500 1250
+	1800 1250 1950 1250
 Wire Wire Line
 	3600 1200 3700 1200
 Wire Wire Line
@@ -132,12 +132,12 @@ Wire Wire Line
 $Comp
 L Tiva_Breakout_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
 U 1 1 5D8EFD0D
-P 1700 2200
-F 0 "U1" H 1750 3350 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" V 2000 2250 60  0000 L CNN
-F 2 "MRDT_Shields:Tiva_Breakout" H 1700 2200 60  0001 C CNN
-F 3 "" H 1700 2200 60  0001 C CNN
-	1    1700 2200
+P 2150 2200
+F 0 "U1" H 2200 3350 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" V 2450 2250 60  0000 L CNN
+F 2 "MRDT_Shields:Tiva_Breakout" H 2150 2200 60  0001 C CNN
+F 3 "" H 2150 2200 60  0001 C CNN
+	1    2150 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -234,8 +234,6 @@ Wire Wire Line
 NoConn ~ 8150 2150
 NoConn ~ 8150 2050
 NoConn ~ 8150 1950
-NoConn ~ 8150 1850
-NoConn ~ 8150 1750
 NoConn ~ 8150 1550
 NoConn ~ 8150 1450
 NoConn ~ 8150 1350
@@ -300,17 +298,17 @@ NoConn ~ 6400 3800
 NoConn ~ 6400 3900
 Wire Wire Line
 	3600 1200 3600 1350
-Text GLabel 1450 1750 0    50   Input ~ 0
+Text GLabel 3450 1850 2    50   Input ~ 0
 12V_ISENSE
-Text GLabel 1450 1850 0    50   Input ~ 0
+Text GLabel 3400 3300 2    50   Input ~ 0
 AUX_ISENSE
-Text GLabel 1450 1350 0    50   Input ~ 0
+Text GLabel 1900 3100 0    50   Input ~ 0
 RKT_ISENSE
-Text GLabel 1450 2050 0    50   Output ~ 0
+Text GLabel 3450 2150 2    50   Output ~ 0
 RKT_EN
-Text GLabel 1450 1950 0    50   Output ~ 0
+Text GLabel 3450 1950 2    50   Output ~ 0
 AUX_EN
-Text GLabel 1450 1650 0    50   Output ~ 0
+Text GLabel 3450 2050 2    50   Output ~ 0
 12V_EN
 Text GLabel 10500 2250 2    50   Input ~ 0
 12V_EN
@@ -377,9 +375,9 @@ Wire Wire Line
 	10500 1750 10450 1750
 Wire Wire Line
 	10450 1650 10500 1650
-Text GLabel 1450 1550 0    50   Output ~ 0
+Text GLabel 1900 2150 0    50   Output ~ 0
 SP_EN
-Text GLabel 3450 1650 2    50   Input ~ 0
+Text GLabel 3400 3400 2    50   Input ~ 0
 SP_ISENSE
 $Comp
 L MRDT_Connectors:Molex_SL_02 Conn1
@@ -420,29 +418,27 @@ Wire Wire Line
 	10500 2350 10450 2350
 Wire Wire Line
 	10450 2250 10500 2250
-Text GLabel 3450 1450 2    50   Output ~ 0
-M6_EN
-Text GLabel 3450 1550 2    50   Input ~ 0
-M6_ISENSE
 Text GLabel 1900 3200 0    50   Output ~ 0
-M5_EN
+M6_EN
 Text GLabel 3400 3200 2    50   Input ~ 0
+M6_ISENSE
+Text GLabel 3400 3900 2    50   Output ~ 0
+M5_EN
+Text GLabel 1900 3500 0    50   Input ~ 0
 M5_ISENSE
-Text GLabel 1900 3800 0    50   Output ~ 0
-M4_EN
-Text GLabel 1900 3100 0    50   Input ~ 0
-M4_ISENSE
-Text GLabel 1900 3600 0    50   Output ~ 0
-M3_EN
-Text GLabel 3400 3700 2    50   Input ~ 0
-M3_ISENSE
 Text GLabel 1900 3400 0    50   Input ~ 0
-M1_ISENSE
-Text GLabel 1900 3300 0    50   Output ~ 0
-M1_EN
+M4_ISENSE
+Text GLabel 1900 3800 0    50   Output ~ 0
+M3_EN
 Text GLabel 3400 3500 2    50   Input ~ 0
+M3_ISENSE
+Text GLabel 3400 3700 2    50   Input ~ 0
+M1_ISENSE
+Text GLabel 1900 3600 0    50   Output ~ 0
+M1_EN
+Text GLabel 3400 3600 2    50   Input ~ 0
 M2_ISENSE
-Text GLabel 1900 3500 0    50   Output ~ 0
+Text GLabel 1900 3700 0    50   Output ~ 0
 M2_EN
 Wire Wire Line
 	1050 6150 1000 6150
@@ -458,13 +454,11 @@ Wire Wire Line
 	3350 3500 3400 3500
 Wire Wire Line
 	3400 3200 3350 3200
-Text Notes 3900 3600 0    197  ~ 39
+Text Notes 3850 3800 0    197  ~ 39
 30V_L
 Wire Notes Line
-	3850 3750 4800 3750
-Wire Notes Line
-	4800 3150 3850 3150
-Text Notes 1500 3650 2    197  ~ 39
+	4800 3450 3850 3450
+Text Notes 1500 3750 2    197  ~ 39
 30V_L
 Wire Wire Line
 	3400 1450 3450 1450
@@ -473,15 +467,15 @@ Wire Wire Line
 Wire Wire Line
 	3400 1650 3450 1650
 Wire Wire Line
-	1450 1750 1500 1750
+	1900 1750 1950 1750
 Wire Wire Line
-	1500 1850 1450 1850
+	1950 1850 1900 1850
 Wire Wire Line
-	1500 1950 1450 1950
+	1950 1950 1900 1950
 Wire Wire Line
-	1450 2050 1500 2050
+	1900 2050 1950 2050
 Wire Wire Line
-	1450 1350 1500 1350
+	1900 1350 1950 1350
 $Comp
 L Device:R R2
 U 1 1 5DF9E05E
@@ -903,13 +897,11 @@ F 3 "" H 6600 2200 60  0001 C CNN
 	3    6600 2200
 	1    0    0    -1  
 $EndComp
-Text Notes 4000 1650 0    157  ~ 31
+Text Notes 3950 3400 0    157  ~ 31
 30V_R
-Wire Notes Line
-	3950 1700 4800 1700
-Text GLabel 3450 1750 2    50   Input ~ 0
+Text GLabel 8200 1850 2    50   Input ~ 0
 ACT_ISENSE
-Text GLabel 3450 1850 2    50   Input ~ 0
+Text GLabel 8200 1750 2    50   Input ~ 0
 LOG_ISENSE
 Wire Wire Line
 	3400 1750 3450 1750
@@ -921,18 +913,12 @@ Wire Wire Line
 	3400 2050 3450 2050
 Wire Wire Line
 	3400 2150 3450 2150
-Text GLabel 3450 1950 2    50   Output ~ 0
+Text GLabel 6350 1650 0    50   Output ~ 0
 ACT_EN
-Text GLabel 3450 2050 2    50   Output ~ 0
+Text GLabel 6350 1550 0    50   Output ~ 0
 LOG_EN
-Text GLabel 3450 2150 2    50   Output ~ 0
+Text GLabel 6350 1450 0    50   Output ~ 0
 VOUT_EN
-Wire Notes Line
-	3800 2200 4800 2200
-Wire Notes Line
-	4800 1400 4800 2200
-Text Notes 4050 2050 0    197  ~ 39
-12V
 Text GLabel 9900 5000 0    50   Input ~ 0
 ACT_ISENSE
 Text GLabel 9900 5100 0    50   Input ~ 0
@@ -998,41 +984,20 @@ F 3 "" H 10250 5200 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1450 1550 1500 1550
+	1900 1550 1950 1550
 Wire Wire Line
-	1450 1650 1500 1650
+	1900 1650 1950 1650
 Wire Wire Line
 	1900 3100 1950 3100
-Wire Wire Line
-	1900 3200 1950 3200
 Wire Wire Line
 	1900 3400 1950 3400
 Wire Wire Line
 	1900 3300 1950 3300
 Wire Wire Line
 	3350 3700 3400 3700
-NoConn ~ 1500 1450
-Text Notes 700  1650 0    79   ~ 16
+Text Notes 1000 3200 0    79   ~ 16
 30V_R
-Wire Notes Line
-	1000 1300 600  1300
-Wire Notes Line
-	600  1300 600  2100
-Wire Notes Line
-	600  2100 1150 2100
-Wire Notes Line
-	3700 1400 4800 1400
-Wire Notes Line
-	4800 3150 4800 3750
-NoConn ~ 3350 3300
-NoConn ~ 3350 3400
-NoConn ~ 3350 3600
 NoConn ~ 3350 3800
-NoConn ~ 3350 3900
-NoConn ~ 1950 3900
-NoConn ~ 1950 3700
-Wire Notes Line
-	600  3850 600  3050
 $Comp
 L Device:R R12
 U 1 1 5E19B3D9
@@ -1160,38 +1125,12 @@ Text Notes 2150 4450 0    197  ~ 39
 30V LED
 Text Notes 7650 4500 0    197  ~ 39
 12V LED
-Text GLabel 6350 2150 0    50   Output ~ 0
-PB1_EN
-Text GLabel 6350 1450 0    50   Output ~ 0
-PB2_EN
-Text GLabel 6350 2050 0    50   Output ~ 0
-PB3_EN
-Text GLabel 6350 1550 0    50   Output ~ 0
-PB4_EN
-Text GLabel 6350 1950 0    50   Output ~ 0
-PB5_EN
-Text GLabel 6350 1650 0    50   Output ~ 0
-PB6_EN
-Text GLabel 6350 1850 0    50   Output ~ 0
-PB7_EN
-Text GLabel 6350 1750 0    50   Output ~ 0
-PB8_EN
 Wire Wire Line
 	6350 1450 6400 1450
 Wire Wire Line
 	6400 1550 6350 1550
 Wire Wire Line
 	6350 1650 6400 1650
-Wire Wire Line
-	6400 1750 6350 1750
-Wire Wire Line
-	6350 1850 6400 1850
-Wire Wire Line
-	6400 1950 6350 1950
-Wire Wire Line
-	6350 2050 6400 2050
-Wire Wire Line
-	6400 2150 6350 2150
 Wire Wire Line
 	10450 3750 10500 3750
 Wire Wire Line
@@ -1559,10 +1498,10 @@ Text GLabel 4450 6450 0    50   Input ~ 0
 PB7_EN
 Text GLabel 5900 6450 0    50   Input ~ 0
 PB8_EN
-Text GLabel 1450 2150 0    50   Output ~ 0
+Text GLabel 1900 3300 0    50   Output ~ 0
 ERROR
 Wire Wire Line
-	1450 2150 1500 2150
+	1900 2150 1950 2150
 Text Notes 600  5850 0    118  ~ 24
 3V3_LED
 Text Notes 500  6600 0    118  ~ 24
@@ -1626,10 +1565,6 @@ Wire Notes Line
 	7400 6500 7400 4050
 Wire Notes Line
 	4950 450  4950 4050
-Text Notes 5250 1900 0    157  ~ 31
-PATCH
-Wire Notes Line
-	6050 2200 5200 2200
 Wire Notes Line
 	450  2300 9200 2300
 Wire Notes Line
@@ -1649,9 +1584,9 @@ Wire Notes Line
 Wire Notes Line
 	6950 6500 11250 6500
 Wire Notes Line
-	600  3850 1650 3850
+	600  3950 1650 3950
 Wire Notes Line
-	600  3050 1450 3050
+	600  3350 1450 3350
 Wire Notes Line
 	4000 6900 4000 4050
 Wire Wire Line
@@ -1834,8 +1769,87 @@ Wire Wire Line
 Connection ~ 6600 6650
 NoConn ~ 6400 1350
 NoConn ~ 6400 1250
+Text GLabel 1900 3900 0    50   Output ~ 0
+M4_EN
 Wire Notes Line
-	5200 2200 5200 1400
+	600  3350 600  3950
+Wire Wire Line
+	3350 3600 3400 3600
+Wire Wire Line
+	1950 3700 1900 3700
+Wire Wire Line
+	1900 3900 1950 3900
+Wire Wire Line
+	3350 3900 3400 3900
 Wire Notes Line
-	5200 1400 6050 1400
+	3650 3950 4800 3950
+Wire Notes Line
+	950  3050 1450 3050
+Text Notes 1300 2200 0    59   ~ 12
+30V_R
+Wire Notes Line
+	4800 3150 3850 3150
+Wire Notes Line
+	4800 3150 4800 3950
+Wire Wire Line
+	3350 3300 3400 3300
+Wire Wire Line
+	3400 3400 3350 3400
+Text Notes 3900 2050 0    79   ~ 16
+30V_R
+Wire Wire Line
+	1900 3200 1950 3200
+Wire Notes Line
+	1650 2200 1250 2200
+Wire Notes Line
+	1250 2200 1250 2100
+Wire Notes Line
+	950  3250 1600 3250
+Wire Notes Line
+	950  3050 950  3250
+Wire Notes Line
+	4350 2200 4350 1800
+Wire Notes Line
+	4350 1800 3950 1800
+Wire Notes Line
+	3750 2200 4350 2200
+Wire Notes Line
+	750  1300 1600 1300
+Wire Notes Line
+	750  2100 750  1300
+Text GLabel 1900 1650 0    50   Output ~ 0
+PB8_EN
+Text GLabel 1900 1750 0    50   Output ~ 0
+PB7_EN
+Text GLabel 1900 1550 0    50   Output ~ 0
+PB6_EN
+Text GLabel 1900 1850 0    50   Output ~ 0
+PB5_EN
+Text GLabel 1900 1450 0    50   Output ~ 0
+PB4_EN
+Text GLabel 1900 1950 0    50   Output ~ 0
+PB3_EN
+Text GLabel 1900 1350 0    50   Output ~ 0
+PB2_EN
+Text GLabel 1900 2050 0    50   Output ~ 0
+PB1_EN
+Wire Notes Line
+	750  2100 1650 2100
+NoConn ~ 3450 1750
+NoConn ~ 3450 1650
+NoConn ~ 3450 1550
+NoConn ~ 3450 1450
+Wire Wire Line
+	1950 1450 1900 1450
+Text Notes 800  1800 0    157  ~ 31
+PATCH
+Wire Wire Line
+	8150 1750 8200 1750
+Wire Wire Line
+	8150 1850 8200 1850
+NoConn ~ 6400 1750
+NoConn ~ 6400 1850
+NoConn ~ 6400 1950
+NoConn ~ 6400 2050
+NoConn ~ 6400 2150
 $EndSCHEMATC
