@@ -44,12 +44,12 @@ NoConn ~ 8200 3400
 $Comp
 L power:+3V3 #PWR0105
 U 1 1 5D930359
-P 1800 1250
-F 0 "#PWR0105" H 1800 1100 50  0001 C CNN
-F 1 "+3V3" H 1815 1423 50  0000 C CNN
-F 2 "" H 1800 1250 50  0001 C CNN
-F 3 "" H 1800 1250 50  0001 C CNN
-	1    1800 1250
+P 1350 1250
+F 0 "#PWR0105" H 1350 1100 50  0001 C CNN
+F 1 "+3V3" H 1365 1423 50  0000 C CNN
+F 2 "" H 1350 1250 50  0001 C CNN
+F 3 "" H 1350 1250 50  0001 C CNN
+	1    1350 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -66,7 +66,7 @@ $EndComp
 Wire Wire Line
 	1800 3000 1950 3000
 Wire Wire Line
-	1800 1250 1950 1250
+	1350 1250 1500 1250
 Wire Wire Line
 	3600 1200 3700 1200
 Wire Wire Line
@@ -85,20 +85,16 @@ $EndComp
 $Comp
 L power:GND #PWR0109
 U 1 1 5D93722A
-P 8450 1150
-F 0 "#PWR0109" H 8450 900 50  0001 C CNN
-F 1 "GND" H 8450 1000 50  0000 C CNN
-F 2 "" H 8450 1150 50  0001 C CNN
-F 3 "" H 8450 1150 50  0001 C CNN
-	1    8450 1150
+P 8350 1250
+F 0 "#PWR0109" H 8350 1000 50  0001 C CNN
+F 1 "GND" H 8350 1100 50  0000 C CNN
+F 2 "" H 8350 1250 50  0001 C CNN
+F 3 "" H 8350 1250 50  0001 C CNN
+	1    8350 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8150 1250 8350 1250
-Wire Wire Line
-	8350 1250 8350 1150
-Wire Wire Line
-	8350 1150 8450 1150
 $Comp
 L power:GND #PWR0110
 U 1 1 5D93847D
@@ -115,29 +111,25 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0111
 U 1 1 5D9394A1
-P 8500 2900
-F 0 "#PWR0111" H 8500 2650 50  0001 C CNN
-F 1 "GND" H 8500 2750 50  0000 C CNN
-F 2 "" H 8500 2900 50  0001 C CNN
-F 3 "" H 8500 2900 50  0001 C CNN
-	1    8500 2900
+P 8400 3000
+F 0 "#PWR0111" H 8400 2750 50  0001 C CNN
+F 1 "GND" H 8400 2850 50  0000 C CNN
+F 2 "" H 8400 3000 50  0001 C CNN
+F 3 "" H 8400 3000 50  0001 C CNN
+	1    8400 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8200 3000 8400 3000
-Wire Wire Line
-	8400 3000 8400 2900
-Wire Wire Line
-	8400 2900 8500 2900
 $Comp
 L Tiva_Breakout_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
 U 1 1 5D8EFD0D
-P 2150 2200
-F 0 "U1" H 2200 3350 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" V 2450 2250 60  0000 L CNN
-F 2 "MRDT_Shields:Tiva_Breakout" H 2150 2200 60  0001 C CNN
-F 3 "" H 2150 2200 60  0001 C CNN
-	1    2150 2200
+P 1700 2200
+F 0 "U1" H 1750 3350 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" V 2000 2250 60  0000 L CNN
+F 2 "Custom_Footprints:Tiva_Breakout" H 1700 2200 60  0001 C CNN
+F 3 "" H 1700 2200 60  0001 C CNN
+	1    1700 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -146,7 +138,7 @@ U 2 1 5D8F2703
 P 3200 2200
 F 0 "U1" H 3350 3350 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" V 3550 2750 60  0000 C CNN
-F 2 "MRDT_Shields:Tiva_Breakout" H 3200 2200 60  0001 C CNN
+F 2 "Custom_Footprints:Tiva_Breakout" H 3200 2200 60  0001 C CNN
 F 3 "" H 3200 2200 60  0001 C CNN
 	2    3200 2200
 	-1   0    0    -1  
@@ -157,7 +149,7 @@ U 5 1 5D8FA8C6
 P 2150 3950
 F 0 "U1" H 2200 5100 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" V 2500 4000 60  0000 L CNN
-F 2 "MRDT_Shields:Tiva_Breakout" H 2150 3950 60  0001 C CNN
+F 2 "Custom_Footprints:Tiva_Breakout" H 2150 3950 60  0001 C CNN
 F 3 "" H 2150 3950 60  0001 C CNN
 	5    2150 3950
 	1    0    0    -1  
@@ -168,7 +160,7 @@ U 6 1 5D8FCD2A
 P 3150 3950
 F 0 "U1" H 3300 5100 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" V 3500 4500 60  0000 C CNN
-F 2 "MRDT_Shields:Tiva_Breakout" H 3150 3950 60  0001 C CNN
+F 2 "Custom_Footprints:Tiva_Breakout" H 3150 3950 60  0001 C CNN
 F 3 "" H 3150 3950 60  0001 C CNN
 	6    3150 3950
 	-1   0    0    -1  
@@ -179,7 +171,7 @@ U 7 1 5D8FEE4B
 P 6600 3950
 F 0 "U1" H 6650 5100 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" V 6950 4000 60  0000 L CNN
-F 2 "MRDT_Shields:Tiva_Breakout" H 6600 3950 60  0001 C CNN
+F 2 "Custom_Footprints:Tiva_Breakout" H 6600 3950 60  0001 C CNN
 F 3 "" H 6600 3950 60  0001 C CNN
 	7    6600 3950
 	1    0    0    -1  
@@ -190,7 +182,7 @@ U 8 1 5D900FA8
 P 8000 3950
 F 0 "U1" H 8100 5100 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" V 8300 4500 60  0000 C CNN
-F 2 "MRDT_Shields:Tiva_Breakout" H 8000 3950 60  0001 C CNN
+F 2 "Custom_Footprints:Tiva_Breakout" H 8000 3950 60  0001 C CNN
 F 3 "" H 8000 3950 60  0001 C CNN
 	8    8000 3950
 	-1   0    0    -1  
@@ -210,24 +202,24 @@ CONNECTORS
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even Conn30V_L1
 U 1 1 5DCE1DDF
-P 10250 1850
-F 0 "Conn30V_L1" H 10300 1550 60  0000 C CNN
-F 1 "PH_2x5" H 10300 1450 60  0000 C CNN
-F 2 "MRDT_Connectors:JTAG_ARM_Connector_10_Pin" H 10250 2150 60  0001 C CNN
-F 3 "" H 10250 2150 60  0001 C CNN
-	1    10250 1850
-	-1   0    0    1   
+P 10150 1850
+F 0 "Conn30V_L1" H 10200 2150 60  0000 C CNN
+F 1 "PH_2x5" H 10200 2250 60  0000 C CNN
+F 2 "MRDT_Connectors:JTAG_ARM_Connector_10_Pin" H 10150 2150 60  0001 C CNN
+F 3 "" H 10150 2150 60  0001 C CNN
+	1    10150 1850
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even Conn30V_R1
 U 1 1 5DCE5C02
-P 10250 2450
-F 0 "Conn30V_R1" H 10000 2900 60  0000 L CNN
-F 1 "PH_2x5" H 10150 2800 60  0000 L CNN
-F 2 "MRDT_Connectors:JTAG_ARM_Connector_10_Pin" H 10250 2750 60  0001 C CNN
-F 3 "" H 10250 2750 60  0001 C CNN
-	1    10250 2450
-	-1   0    0    1   
+P 10150 2450
+F 0 "Conn30V_R1" H 9950 2050 60  0000 L CNN
+F 1 "PH_2x5" H 10050 2150 60  0000 L CNN
+F 2 "MRDT_Connectors:JTAG_ARM_Connector_10_Pin" H 10150 2750 60  0001 C CNN
+F 3 "" H 10150 2750 60  0001 C CNN
+	1    10150 2450
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3550 2800 3550 3100
@@ -244,7 +236,7 @@ U 4 1 5D8F6A14
 P 7950 2200
 F 0 "U1" H 8100 3350 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" V 8300 2750 60  0000 C CNN
-F 2 "MRDT_Shields:Tiva_Breakout" H 7950 2200 60  0001 C CNN
+F 2 "Custom_Footprints:Tiva_Breakout" H 7950 2200 60  0001 C CNN
 F 3 "" H 7950 2200 60  0001 C CNN
 	4    7950 2200
 	-1   0    0    -1  
@@ -298,17 +290,17 @@ NoConn ~ 6400 3800
 NoConn ~ 6400 3900
 Wire Wire Line
 	3600 1200 3600 1350
-Text GLabel 3450 1850 2    50   Input ~ 0
+Text GLabel 3400 3600 2    50   Input ~ 0
 12V_ISENSE
-Text GLabel 3400 3300 2    50   Input ~ 0
+Text GLabel 3400 3500 2    50   Input ~ 0
 AUX_ISENSE
-Text GLabel 1900 3100 0    50   Input ~ 0
+Text GLabel 3400 3300 2    50   Input ~ 0
 RKT_ISENSE
-Text GLabel 3450 2150 2    50   Output ~ 0
+Text GLabel 3400 3400 2    50   Output ~ 0
 RKT_EN
-Text GLabel 3450 1950 2    50   Output ~ 0
+Text GLabel 1900 3600 0    50   Output ~ 0
 AUX_EN
-Text GLabel 3450 2050 2    50   Output ~ 0
+Text GLabel 3400 3800 2    50   Output ~ 0
 12V_EN
 Text GLabel 10500 2250 2    50   Input ~ 0
 12V_EN
@@ -375,9 +367,9 @@ Wire Wire Line
 	10500 1750 10450 1750
 Wire Wire Line
 	10450 1650 10500 1650
-Text GLabel 1900 2150 0    50   Output ~ 0
+Text GLabel 1450 2150 0    50   Output ~ 0
 SP_EN
-Text GLabel 3400 3400 2    50   Input ~ 0
+Text GLabel 1450 1850 0    50   Input ~ 0
 SP_ISENSE
 $Comp
 L MRDT_Connectors:Molex_SL_02 Conn1
@@ -420,25 +412,27 @@ Wire Wire Line
 	10450 2250 10500 2250
 Text GLabel 1900 3200 0    50   Output ~ 0
 M6_EN
-Text GLabel 3400 3200 2    50   Input ~ 0
+Text GLabel 1450 1750 0    50   Input ~ 0
 M6_ISENSE
 Text GLabel 3400 3900 2    50   Output ~ 0
 M5_EN
-Text GLabel 1900 3500 0    50   Input ~ 0
+Text GLabel 3400 3200 2    50   Input ~ 0
 M5_ISENSE
-Text GLabel 1900 3400 0    50   Input ~ 0
-M4_ISENSE
 Text GLabel 1900 3800 0    50   Output ~ 0
-M3_EN
-Text GLabel 3400 3500 2    50   Input ~ 0
-M3_ISENSE
-Text GLabel 3400 3700 2    50   Input ~ 0
-M1_ISENSE
-Text GLabel 1900 3600 0    50   Output ~ 0
-M1_EN
-Text GLabel 3400 3600 2    50   Input ~ 0
-M2_ISENSE
+M4_EN
+Text GLabel 1900 3100 0    50   Input ~ 0
+M4_ISENSE
 Text GLabel 1900 3700 0    50   Output ~ 0
+M3_EN
+Text GLabel 3400 3700 2    50   Input ~ 0
+M3_ISENSE
+Text GLabel 1900 3400 0    50   Input ~ 0
+M1_ISENSE
+Text GLabel 1900 3300 0    50   Output ~ 0
+M1_EN
+Text GLabel 1900 3500 0    50   Input ~ 0
+M2_ISENSE
+Text GLabel 1900 3900 0    50   Output ~ 0
 M2_EN
 Wire Wire Line
 	1050 6150 1000 6150
@@ -454,16 +448,11 @@ Wire Wire Line
 	3350 3500 3400 3500
 Wire Wire Line
 	3400 3200 3350 3200
-<<<<<<< Updated upstream
-Text Notes 3850 3800 0    197  ~ 39
-30V_L
-=======
-Text Notes 3900 3650 0    138  ~ 28
+Text Notes 4000 3650 0    138  ~ 28
 30V_R
->>>>>>> Stashed changes
 Wire Notes Line
-	4800 3450 3850 3450
-Text Notes 1500 3750 2    197  ~ 39
+	4800 3250 3850 3250
+Text Notes 1300 3550 2    157  ~ 31
 30V_L
 Wire Wire Line
 	3400 1450 3450 1450
@@ -472,15 +461,15 @@ Wire Wire Line
 Wire Wire Line
 	3400 1650 3450 1650
 Wire Wire Line
-	1900 1750 1950 1750
+	1450 1750 1500 1750
 Wire Wire Line
-	1950 1850 1900 1850
+	1500 1850 1450 1850
 Wire Wire Line
-	1950 1950 1900 1950
+	1500 1950 1450 1950
 Wire Wire Line
-	1900 2050 1950 2050
+	1450 2050 1500 2050
 Wire Wire Line
-	1900 1350 1950 1350
+	1450 1350 1500 1350
 $Comp
 L Device:R R2
 U 1 1 5DF9E05E
@@ -897,38 +886,11 @@ U 3 1 5D8F4A55
 P 6600 2200
 F 0 "U1" H 6650 3350 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" V 6950 2250 60  0000 L CNN
-F 2 "MRDT_Shields:Tiva_Breakout" H 6600 2200 60  0001 C CNN
+F 2 "Custom_Footprints:Tiva_Breakout" H 6600 2200 60  0001 C CNN
 F 3 "" H 6600 2200 60  0001 C CNN
 	3    6600 2200
 	1    0    0    -1  
 $EndComp
-<<<<<<< Updated upstream
-Text Notes 3950 3400 0    157  ~ 31
-30V_R
-Text GLabel 8200 1850 2    50   Input ~ 0
-ACT_ISENSE
-Text GLabel 8200 1750 2    50   Input ~ 0
-LOG_ISENSE
-Wire Wire Line
-	3400 1750 3450 1750
-Wire Wire Line
-	3450 1850 3400 1850
-Wire Wire Line
-	3400 1950 3450 1950
-Wire Wire Line
-	3400 2050 3450 2050
-Wire Wire Line
-	3400 2150 3450 2150
-Text GLabel 6350 1650 0    50   Output ~ 0
-ACT_EN
-Text GLabel 6350 1550 0    50   Output ~ 0
-LOG_EN
-Text GLabel 6350 1450 0    50   Output ~ 0
-VOUT_EN
-Text GLabel 9900 5000 0    50   Input ~ 0
-ACT_ISENSE
-Text GLabel 9900 5100 0    50   Input ~ 0
-=======
 Text GLabel 8200 1750 2    50   Input ~ 0
 ACT_ISENSE
 Text GLabel 8200 1850 2    50   Input ~ 0
@@ -939,47 +901,53 @@ Text GLabel 6350 1850 0    50   Output ~ 0
 ACT_EN
 Text GLabel 6350 1750 0    50   Output ~ 0
 LOG_EN
-Text Notes 5650 1900 0    118  ~ 24
+Text Notes 5500 2200 0    197  ~ 39
 12V
-Text GLabel 10550 5550 2    50   Input ~ 0
->>>>>>> Stashed changes
+Text GLabel 10500 5000 2    50   Input ~ 0
+ACT_ISENSE
+Text GLabel 10500 5400 2    50   Input ~ 0
 LOG_ISENSE
 Wire Wire Line
-	10550 5550 10500 5550
+	9950 5000 9900 5000
 Wire Wire Line
-	10500 5450 10550 5450
+	9900 5100 9950 5100
 Wire Wire Line
-	10500 5350 10550 5350
-Text GLabel 10550 5450 2    50   Output ~ 0
+	9950 5200 9900 5200
+Wire Wire Line
+	9950 5300 9900 5300
+Text GLabel 10500 5300 2    50   Output ~ 0
 ACT_EN
-Text GLabel 10550 5350 2    50   Output ~ 0
+Text GLabel 10500 5200 2    50   Output ~ 0
 LOG_EN
 $Comp
-L power:GND #PWR0104
-U 1 1 5DF80213
-P 9950 5600
-F 0 "#PWR0104" H 9950 5350 50  0001 C CNN
-F 1 "GND" H 9955 5427 50  0000 C CNN
-F 2 "" H 9950 5600 50  0001 C CNN
-F 3 "" H 9950 5600 50  0001 C CNN
-	1    9950 5600
+L Connector_Generic:Conn_02x05_Odd_Even 12V_A1
+U 1 1 5DC19990
+P 10150 5200
+F 0 "12V_A1" H 10050 4800 60  0000 L CNN
+F 1 "PH_2x5" H 10050 4900 60  0000 L CNN
+F 2 "MRDT_Connectors:JTAG_ARM_Connector_10_Pin" H 10150 5200 60  0001 C CNN
+F 3 "" H 10150 5200 60  0001 C CNN
+	1    10150 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 1550 1950 1550
+	1450 1550 1500 1550
 Wire Wire Line
-	1900 1650 1950 1650
+	1450 1650 1500 1650
 Wire Wire Line
 	1900 3100 1950 3100
+Wire Wire Line
+	1900 3200 1950 3200
 Wire Wire Line
 	1900 3400 1950 3400
 Wire Wire Line
 	1900 3300 1950 3300
 Wire Wire Line
 	3350 3700 3400 3700
-Text Notes 1000 3200 0    79   ~ 16
+Text Notes 600  1900 0    79   ~ 16
 30V_R
-NoConn ~ 3350 3800
+Wire Notes Line
+	600  2200 1150 2200
 $Comp
 L Device:R R12
 U 1 1 5E19B3D9
@@ -1066,14 +1034,6 @@ Text Notes 2150 4450 0    197  ~ 39
 30V LED
 Text Notes 7650 4500 0    197  ~ 39
 12V LED
-<<<<<<< Updated upstream
-Wire Wire Line
-	6350 1450 6400 1450
-Wire Wire Line
-	6400 1550 6350 1550
-Wire Wire Line
-	6350 1650 6400 1650
-=======
 Text GLabel 3450 1750 2    50   Output ~ 0
 PB2_EN
 Text GLabel 3450 1650 2    50   Output ~ 0
@@ -1086,11 +1046,6 @@ Wire Wire Line
 	6400 1750 6350 1750
 Wire Wire Line
 	6350 1850 6400 1850
-Wire Wire Line
-	8150 1850 8200 1850
-Wire Wire Line
-	8200 1750 8150 1750
->>>>>>> Stashed changes
 Wire Wire Line
 	10450 3750 10500 3750
 Wire Wire Line
@@ -1458,10 +1413,10 @@ Text GLabel 4450 6450 0    50   Input ~ 0
 PB7_EN
 Text GLabel 5900 6450 0    50   Input ~ 0
 PB8_EN
-Text GLabel 1900 3300 0    50   Output ~ 0
+Text GLabel 1450 2050 0    50   Output ~ 0
 ERROR
 Wire Wire Line
-	1900 2150 1950 2150
+	1450 2150 1500 2150
 Text Notes 600  5850 0    118  ~ 24
 3V3_LED
 Text Notes 500  6600 0    118  ~ 24
@@ -1525,11 +1480,8 @@ Wire Notes Line
 	7400 6500 7400 4050
 Wire Notes Line
 	4950 450  4950 4050
-<<<<<<< Updated upstream
-=======
 Text Notes 600  1550 0    98   ~ 20
 PATCH
->>>>>>> Stashed changes
 Wire Notes Line
 	450  2300 9200 2300
 Wire Notes Line
@@ -1549,9 +1501,7 @@ Wire Notes Line
 Wire Notes Line
 	6950 6500 11250 6500
 Wire Notes Line
-	600  3950 1650 3950
-Wire Notes Line
-	600  3350 1450 3350
+	600  3050 1450 3050
 Wire Notes Line
 	4000 6900 4000 4050
 Wire Wire Line
@@ -1734,172 +1684,125 @@ Wire Wire Line
 Connection ~ 6600 6650
 NoConn ~ 6400 1350
 NoConn ~ 6400 1250
-<<<<<<< Updated upstream
-Text GLabel 1900 3900 0    50   Output ~ 0
-M4_EN
-Wire Notes Line
-	600  3350 600  3950
-Wire Wire Line
-	3350 3600 3400 3600
-=======
->>>>>>> Stashed changes
 Wire Wire Line
 	1950 3700 1900 3700
 Wire Wire Line
-	1900 3900 1950 3900
+	1950 3900 1900 3900
+Wire Notes Line
+	600  3950 1650 3950
 Wire Wire Line
 	3350 3900 3400 3900
-Wire Notes Line
-	3650 3950 4800 3950
-Wire Notes Line
-	950  3050 1450 3050
-Text Notes 1300 2200 0    59   ~ 12
-30V_R
-Wire Notes Line
-	4800 3150 3850 3150
-Wire Notes Line
-	4800 3150 4800 3950
 Wire Wire Line
 	3350 3300 3400 3300
 Wire Wire Line
-	3400 3400 3350 3400
-Text Notes 3900 2050 0    79   ~ 16
-30V_R
+	3350 3400 3400 3400
 Wire Wire Line
-	1900 3200 1950 3200
+	3350 3600 3400 3600
+Wire Wire Line
+	3350 3800 3400 3800
+Wire Wire Line
+	1500 1450 1450 1450
 Wire Notes Line
-	1650 2200 1250 2200
+	600  3050 600  3950
 Wire Notes Line
-	1250 2200 1250 2100
+	600  1300 600  2200
 Wire Notes Line
-	950  3250 1600 3250
+	850  2100 850  2000
+Text Notes 850  2100 0    59   ~ 12
+ERROR
 Wire Notes Line
-	950  3050 950  3250
+	850  2000 1200 2000
 Wire Notes Line
-	4350 2200 4350 1800
+	850  2100 1200 2100
 Wire Notes Line
-	4350 1800 3950 1800
+	1300 3150 1300 3250
 Wire Notes Line
-	3750 2200 4350 2200
+	1300 3550 1300 3650
+Text Notes 1300 3250 0    59   ~ 12
+30V_R
+Text Notes 1300 3650 0    59   ~ 12
+30V_R
 Wire Notes Line
-	750  1300 1600 1300
+	1300 3250 1650 3250
 Wire Notes Line
-	750  2100 750  1300
-Text GLabel 1900 1650 0    50   Output ~ 0
-PB8_EN
-Text GLabel 1900 1750 0    50   Output ~ 0
+	1300 3150 1650 3150
+Wire Notes Line
+	1300 3550 1600 3550
+Wire Notes Line
+	1300 3650 1600 3650
+Wire Notes Line
+	3700 3850 4800 3850
+Wire Notes Line
+	3850 3150 4800 3150
+Wire Notes Line
+	3650 3950 4800 3950
+Wire Notes Line
+	4800 3150 4800 3950
+Text Notes 3950 3250 0    71   ~ 14
+30V_L
+Text Notes 3750 3950 0    71   ~ 14
+30V_L
+Wire Notes Line
+	1000 1700 600  1700
+NoConn ~ 1450 1950
+Text GLabel 1450 1350 0    50   Output ~ 0
 PB7_EN
-Text GLabel 1900 1550 0    50   Output ~ 0
-PB6_EN
-Text GLabel 1900 1850 0    50   Output ~ 0
+Text GLabel 1450 1450 0    50   Output ~ 0
 PB5_EN
-Text GLabel 1900 1450 0    50   Output ~ 0
-PB4_EN
-Text GLabel 1900 1950 0    50   Output ~ 0
+Text GLabel 1450 1550 0    50   Output ~ 0
 PB3_EN
-Text GLabel 1900 1350 0    50   Output ~ 0
-PB2_EN
-Text GLabel 1900 2050 0    50   Output ~ 0
+Text GLabel 1450 1650 0    50   Output ~ 0
 PB1_EN
 Wire Notes Line
-<<<<<<< Updated upstream
-	750  2100 1650 2100
-NoConn ~ 3450 1750
-NoConn ~ 3450 1650
-NoConn ~ 3450 1550
-NoConn ~ 3450 1450
-Wire Wire Line
-	1950 1450 1900 1450
-Text Notes 800  1800 0    157  ~ 31
-PATCH
+	600  1300 1150 1300
 Wire Wire Line
 	8150 1750 8200 1750
 Wire Wire Line
 	8150 1850 8200 1850
-NoConn ~ 6400 1750
-NoConn ~ 6400 1850
-NoConn ~ 6400 1950
-NoConn ~ 6400 2050
 NoConn ~ 6400 2150
-=======
-	600  1300 1150 1300
-Wire Notes Line
-	4800 1400 4800 1800
-Wire Notes Line
-	3750 1800 4800 1800
-Text Notes 3800 1750 0    197  ~ 39
-PATCH
-Wire Wire Line
-	10500 5150 10550 5150
-Text GLabel 10550 5150 2    50   Input ~ 0
-ACT_ISENSE
-Wire Wire Line
-	10000 5150 9950 5150
-Wire Wire Line
-	9950 5150 9950 5250
-Wire Wire Line
-	10000 5550 9950 5550
-Connection ~ 9950 5550
-Wire Wire Line
-	9950 5550 9950 5600
-Wire Wire Line
-	10000 5450 9950 5450
-Connection ~ 9950 5450
-Wire Wire Line
-	9950 5450 9950 5550
-Wire Wire Line
-	10000 5350 9950 5350
-Connection ~ 9950 5350
-Wire Wire Line
-	9950 5350 9950 5450
-Wire Wire Line
-	10000 5250 9950 5250
-Connection ~ 9950 5250
-Wire Wire Line
-	9950 5250 9950 5350
+NoConn ~ 6400 2050
+NoConn ~ 6400 1950
+NoConn ~ 6400 1650
+NoConn ~ 6400 1550
+NoConn ~ 6400 1450
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even 12V_A1
-U 1 1 5DC19990
-P 10200 5350
-F 0 "12V_A1" H 10100 5800 60  0000 L CNN
-F 1 "PH_2x5" H 10100 5700 60  0000 L CNN
-F 2 "MRDT_Connectors:JTAG_ARM_Connector_10_Pin" H 10200 5350 60  0001 C CNN
-F 3 "" H 10200 5350 60  0001 C CNN
-	1    10200 5350
+L power:GND #PWR0104
+U 1 1 5E66D9C9
+P 9900 5450
+F 0 "#PWR0104" H 9900 5200 50  0001 C CNN
+F 1 "GND" H 9905 5277 50  0000 C CNN
+F 2 "" H 9900 5450 50  0001 C CNN
+F 3 "" H 9900 5450 50  0001 C CNN
+	1    9900 5450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10500 5250
-NoConn ~ 6400 1450
-NoConn ~ 6400 1550
-NoConn ~ 6400 1650
-NoConn ~ 6400 1950
-NoConn ~ 6400 2050
-NoConn ~ 6400 2150
-Text Notes 8700 1900 0    118  ~ 24
-12V
-Wire Notes Line
-	8700 1900 9100 1900
-Wire Notes Line
-	9100 1900 9100 1700
-Wire Notes Line
-	9100 1700 8700 1700
-Wire Notes Line
-	6050 1700 5650 1700
-Wire Notes Line
-	5650 1700 5650 1900
-Wire Notes Line
-	5650 1900 6050 1900
-Text Notes 3900 3750 0    59   ~ 12
-30V_L
-Wire Notes Line
-	3850 3650 4200 3650
-Wire Notes Line
-	4200 3650 4200 3750
-Wire Notes Line
-	4200 3750 3850 3750
+NoConn ~ 10450 5100
+Wire Wire Line
+	10450 5000 10500 5000
+Wire Wire Line
+	10450 5200 10500 5200
+Wire Wire Line
+	10450 5300 10500 5300
+Wire Wire Line
+	10450 5400 10500 5400
+Wire Wire Line
+	9950 5400 9900 5400
+Wire Wire Line
+	9900 5400 9900 5300
+Connection ~ 9900 5100
+Wire Wire Line
+	9900 5100 9900 5000
+Connection ~ 9900 5200
+Wire Wire Line
+	9900 5200 9900 5100
+Connection ~ 9900 5300
+Wire Wire Line
+	9900 5300 9900 5200
+Wire Wire Line
+	9900 5400 9900 5450
+Connection ~ 9900 5400
 NoConn ~ 3400 1850
 NoConn ~ 3400 1950
 NoConn ~ 3400 2050
 NoConn ~ 3400 2150
->>>>>>> Stashed changes
 $EndSCHEMATC
