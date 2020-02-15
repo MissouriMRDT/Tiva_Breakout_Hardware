@@ -897,14 +897,6 @@ Text GLabel 8200 1850 2    50   Input ~ 0
 LOG_ISENSE
 Wire Wire Line
 	3400 1750 3450 1750
-Wire Wire Line
-	3450 1850 3400 1850
-Wire Wire Line
-	3400 1950 3450 1950
-Wire Wire Line
-	3400 2050 3450 2050
-Wire Wire Line
-	3400 2150 3450 2150
 Text GLabel 6350 1850 0    50   Output ~ 0
 ACT_EN
 Text GLabel 6350 1750 0    50   Output ~ 0
@@ -1809,4 +1801,8 @@ Wire Wire Line
 Wire Wire Line
 	9900 5400 9900 5450
 Connection ~ 9900 5400
+NoConn ~ 3400 1850
+NoConn ~ 3400 1950
+NoConn ~ 3400 2050
+NoConn ~ 3400 2150
 $EndSCHEMATC

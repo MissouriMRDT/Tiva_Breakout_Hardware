@@ -901,7 +901,7 @@ Text GLabel 6350 1850 0    50   Output ~ 0
 ACT_EN
 Text GLabel 6350 1750 0    50   Output ~ 0
 LOG_EN
-Text Notes 5500 2200 0    197  ~ 39
+Text Notes 5750 1850 0    79   ~ 16
 12V
 Text GLabel 10500 5000 2    50   Input ~ 0
 ACT_ISENSE
@@ -1805,4 +1805,34 @@ NoConn ~ 3400 1850
 NoConn ~ 3400 1950
 NoConn ~ 3400 2050
 NoConn ~ 3400 2150
+Text Notes 8750 1850 0    79   ~ 16
+12V
+Wire Notes Line
+	8700 1700 9000 1700
+Wire Notes Line
+	9000 1700 9000 1900
+Wire Notes Line
+	9000 1900 8700 1900
+Wire Notes Line
+	6050 1700 5750 1700
+Wire Notes Line
+	5750 1700 5750 1900
+Wire Notes Line
+	5750 1900 6050 1900
+Text Notes 3850 1650 0    98   ~ 20
+PATCH
+Text Notes 3850 3750 0    55   ~ 11
+30V_L
+Wire Notes Line
+	3850 3650 4150 3650
+Wire Notes Line
+	4150 3650 4150 3750
+Wire Notes Line
+	4150 3750 3850 3750
+Wire Notes Line
+	3750 1800 4350 1800
+Wire Notes Line
+	4350 1800 4350 1400
+Wire Notes Line
+	4350 1400 3750 1400
 $EndSCHEMATC
