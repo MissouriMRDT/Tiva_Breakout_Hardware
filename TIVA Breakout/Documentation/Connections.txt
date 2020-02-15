@@ -31,7 +31,7 @@ Incoming/Outgoing
 
 2x5 PinHeader - 12V
 	1. GND
-	2. VOUT_EN
+	2. Unused
 	3. GND
 	4. LOG_EN
 	5. GND
